@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import BasicExample from './components/alert.jsx';
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1> Yosh Escorcia</h1>
-        <BasicExample></BasicExample>
-      </header>
-    </div>
-  );
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        
+        
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
