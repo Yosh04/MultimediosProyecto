@@ -44,6 +44,7 @@
 
 .social-icon{
   list-style-type: none;
+  margin-right: 10px;
 }
 
 
@@ -57,3 +58,19 @@
   color: white !important;
 }
 
+.local-nav-logo{
+  margin: 34px;
+}
+
+.searchbar{
+  margin: 52px;
+}
+
+.social-links{
+  margin: 40px;
+}
+
+.searsicon{
+  margin-left: 40px;
+
+}

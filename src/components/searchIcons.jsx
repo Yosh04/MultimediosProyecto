@@ -4,7 +4,7 @@ const ResearchIcon = () => {
     return (
         <div class='searchbar right'>
             <ul class='listIcons '>
-                <li class='social-icon '>
+                <li class='social-icon searsicon '>
                     <button class='listIcons '>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -14,7 +14,7 @@ const ResearchIcon = () => {
                         <h4 class='h3'>SEARCH</h4>
                     </button>
                 </li>
-                <li class='social-icon'>
+                <li class='social-icon searsicon'>
                     <button class='listIcons '>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
