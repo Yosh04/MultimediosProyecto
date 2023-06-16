@@ -39,6 +39,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  
 }
 
 
@@ -84,3 +85,21 @@ a:hover {
   color: hotpink;
 }
 
+.SubBarInfor{
+  background-color: #0a0b0b;
+  width: 100vw;
+  height: 66px;
+  padding-top: 10px;
+  border-top: #dddddddd solid 1px;
+}
+
+.SubBarListLI{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.AppBarInfoDiv{
+  margin-left: 52px;
+}
