@@ -1,13 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
-import BasicExample from './components/alert.jsx';
+
+
+import LogoStarWars from './components/logoStartWars';
+import IconsLeft from './components/socialIcons';
+import ResearchIcon from './components/searchIcons';
+import BarInfo from './components/AppBarInfo';
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Peter Sequeira</h1>
-        <BasicExample></BasicExample>
+      <header className="App-header ">
+        <div className='principal-header'> 
+          <IconsLeft></IconsLeft>
+          <LogoStarWars></LogoStarWars>
+          <ResearchIcon></ResearchIcon>
+        </div>
+        <BarInfo></BarInfo>
+        
       </header>
+      
     </div>
   );
 }
