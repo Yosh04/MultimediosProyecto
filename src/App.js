@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
 import LogoStarWars from './components/logoStartWars';
 import IconsLeft from './components/socialIcons';
 import ResearchIcon from './components/searchIcons';
+import BarInfo from './components/AppBarInfo';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <LogoStarWars></LogoStarWars>
           <ResearchIcon></ResearchIcon>
         </div>
+        <BarInfo></BarInfo>
         
       </header>
       

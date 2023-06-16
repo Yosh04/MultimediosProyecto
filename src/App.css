@@ -74,3 +74,13 @@
   margin-left: 40px;
 
 }
+
+a:visited {
+  color: #99999999;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
