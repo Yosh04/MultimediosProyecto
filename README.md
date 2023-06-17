@@ -1,3 +1,62 @@
+# Proyecto de Clonación de la Página Oficial de Star Wars
+
+Este proyecto tiene como objetivo desarrollar una clonación de la página oficial de Star Wars con el fin de mejorar nuestros conocimientos en React, Git y JavaScript. Estamos trabajando en un equipo colaborativo compuesto por tres miembros.
+
+## Descripción del Proyecto
+
+El objetivo principal de este proyecto es crear una réplica de la página web oficial de Star Wars utilizando tecnologías como React, Git y JavaScript. A través de este proyecto, buscaremos mejorar nuestras habilidades de desarrollo web y aprender nuevas técnicas y conceptos.
+
+## Integrantes del Equipo
+
+El equipo está formado por tres miembros universitarios:
+
+1. Nombre: [Nombre del miembro 1]
+   - Área de estudio: [Área de estudio del miembro 1]
+   - Responsabilidades: [Responsabilidades del miembro 1 en el proyecto]
+
+2. Nombre: [Nombre del miembro 2]
+   - Área de estudio: [Área de estudio del miembro 2]
+   - Responsabilidades: [Responsabilidades del miembro 2 en el proyecto]
+
+3. Nombre: [Nombre del miembro 3]
+   - Área de estudio: [Área de estudio del miembro 3]
+   - Responsabilidades: [Responsabilidades del miembro 3 en el proyecto]
+
+## Objetivos
+
+Los principales objetivos de este proyecto son:
+
+1. Aumentar nuestros conocimientos y habilidades en el desarrollo con React, Git y JavaScript.
+2. Familiarizarnos con el proceso de colaboración en un proyecto de desarrollo de software.
+3. Aprender buenas prácticas de programación y gestión de versiones utilizando Git.
+
+## Contribuciones
+
+A lo largo del proyecto, cada miembro del equipo contribuirá de la siguiente manera:
+
+- [Anthonny Muños]: ""
+- [Peter Sequeira]: ""
+- [Yosh Escorcia]: ""
+
+## Estado del Proyecto
+
+Actualmente, nos encontramos en las etapas iniciales del proyecto. Hemos establecido la estructura básica del proyecto y hemos comenzado a trabajar en la implementación de las funcionalidades principales. Durante las próximas semanas, nos centraremos en el desarrollo de componentes específicos y en la integración de la API de Star Wars para obtener los datos necesarios.
+
+## Contribuir
+
+Si estás interesado en contribuir a este proyecto, ¡nos encantaría tener tu ayuda! Puedes realizar aportes a través de pull requests. Asegúrate de seguir nuestras pautas de contribución y de discutir cualquier cambio importante antes de realizarlo.
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia relacionada con el proyecto, no dudes en ponerte en contacto con nosotros:
+
+- [Nombre del miembro 1]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
+- [Nombre del miembro 2]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
+- [Nombre del miembro 3]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
+
+¡Gracias por tu interés en nuestro proyecto! Esperamos aprender mucho y crear una clonación impresionante de la página oficial de Star Wars.
+
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
