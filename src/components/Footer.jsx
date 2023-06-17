@@ -49,7 +49,7 @@ const Footer = () => {
               <BsYoutube className="iconSize"/>
             </a>
 
-            <span className="separator"></span>
+           <span className="separator"></span>
 
             <a
               class="social-icon-kids"

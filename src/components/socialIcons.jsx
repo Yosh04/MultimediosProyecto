@@ -4,8 +4,8 @@ import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 const IconsLeft = () => {
   return (
     <div class="social-links left ">
-      <ul class="listIcons ">
-        <li class="facebook social-icon ">
+      <ul class="listIcons">
+        <li class="facebook social-icon social">
           <a
             class="sm-col"
             href="https://www.facebook.com/starwarsla/?brand_redir=169299103121699"
@@ -15,7 +15,7 @@ const IconsLeft = () => {
             <BsFacebook className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon">
+        <li class="facebook social-icon social">
           <a
             class="sm-col"
             href="https://www.instagram.com/starwars/"
@@ -25,7 +25,7 @@ const IconsLeft = () => {
             <BsInstagram className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon">
+        <li class="facebook social-icon social">
           <a
             class="sm-col"
             href="https://www.youtube.com/user/starwars"
@@ -35,7 +35,7 @@ const IconsLeft = () => {
             <BsYoutube className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon">
+        <li class="facebook social-icon social">
           <a
             class="sm-col"
             href="https://twitter.com/starwars"
@@ -45,17 +45,17 @@ const IconsLeft = () => {
             <BsTwitter className="iconSize" />
           </a>
         </li>
-        <li>
-          <span className="separator"></span>
-        </li>
-        <li class="facebook social-icon">
+        <li class="facebook social-icon social">
           <div class="d-flex justify-content-center align-items-center">
-            <a
+          <span className="separator"></span> 
+          <a
               class="social-icon-kids"
               href="https://www.starwarskids.com/ iconSize"
               target="_blank"
               rel="noopener noreferrer"
-            ></a>
+            >
+              
+            </a>
           </div>
         </li>
       </ul>
