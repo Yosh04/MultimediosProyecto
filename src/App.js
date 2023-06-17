@@ -22,7 +22,6 @@ function App() {
           <ResearchIcon></ResearchIcon>
         </div>
         <BarInfo></BarInfo>
-        <h1 > Peter </h1>
       </header>
       <Footer />  
     </div>
