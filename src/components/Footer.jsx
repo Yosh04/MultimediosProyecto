@@ -146,42 +146,42 @@ const Footer = () => {
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://privacy.thewaltdisneycompany.com/en/"
               className="text-white smaller-text"
             >
               Privacy Policy
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/"
               className="text-white smaller-text"
             >
               Children's Online Privacy Policy
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/"
               className="text-white smaller-text"
             >
               Your California Privacy Rights
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://www.shopdisney.com/franchises/star-wars/?CMP=SYN-Dcom&att=StarWars_Footer_Store"
               className="text-white smaller-text"
             >
               Star Wars at shopDisney
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://support.starwars.com/hc/en-us"
               className="text-white smaller-text"
             >
               Star Wars Helpdesk
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://preferences-mgr.truste.com/?type=starwars&affiliateId=115"
               className="text-white smaller-text"
             >
               Interest-Based Ads
@@ -191,7 +191,7 @@ const Footer = () => {
         <Row className="mt-3">
         <Col className="d-flex justify-content-around lastTerm">
         <a
-              href="https://www.youtube.com"
+              href="https://privacyportal-de.onetrust.com/webform/64f077b5-2f93-429f-a005-c0206ec0738e/0a4f1f0b-7130-421f-971d-ef578c0bce6d"
               className="text-white smaller-text"
             >
               Do Not Sell My Personal Information
