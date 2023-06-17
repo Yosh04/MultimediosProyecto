@@ -7,6 +7,11 @@ import ResearchIcon from './components/searchIcons';
 import BarInfo from './components/AppBarInfo';
 import CarouselComponent from './components/CarouselComponent';
 
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
+
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +27,7 @@ function App() {
         
       </header>
       <CarouselComponent />
+      <Footer />  
     </div>
   );
 }
