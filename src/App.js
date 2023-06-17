@@ -17,11 +17,11 @@ function App() {
           <ResearchIcon></ResearchIcon>
           
         </div>
-        <CarouselComponent />
+        
         <BarInfo></BarInfo>
         
       </header>
-      
+      <CarouselComponent />
     </div>
   );
 }
