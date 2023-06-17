@@ -132,14 +132,14 @@ const Footer = () => {
         <Row className="mt-3">
           <Col className="termsColSty">
             <a
-              href="https://www.youtube.com"
+              href="https://disneytermsofuse.com/"
               className="text-white smaller-text"
             >
               Terms of Use
             </a>
             <span className="s-separator"></span>
             <a
-              href="https://www.youtube.com"
+              href="https://support.disney.com/hc/en-us/articles/360000829466-Legal-Notices"
               className="text-white smaller-text"
             >
               Additional Content Information
