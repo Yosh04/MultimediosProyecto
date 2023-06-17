@@ -7,6 +7,10 @@ import IconsLeft from './components/socialIcons';
 import ResearchIcon from './components/searchIcons';
 import BarInfo from './components/AppBarInfo';
 
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -20,7 +24,7 @@ function App() {
         <BarInfo></BarInfo>
         <h1 > Peter </h1>
       </header>
-      
+      <Footer />  
     </div>
   );
 }

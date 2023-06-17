@@ -1,0 +1,91 @@
+.bond {
+  padding: 32px 22px;
+  background-image: url(https://static-mh.content.disney.io/matterhorn/assets/starwars/footer/flourish-6a31057fffa9.svg);
+  background-repeat: no-repeat;
+  background-position: 22px 0;
+  background-size: 52px 49px;
+  position: relative;
+  margin: 0;
+  background-color: #000;
+}
+.separator {
+  position: relative;
+  width: 1px;
+  height: 38px;
+  background-color: #b5bcbd;
+  margin: 0 20px;
+  top: 11;
+  left: -16;
+}
+
+.s-separator {
+  position: relative;
+  width: 1px;
+  height: 16px;
+  background-color: #b5bcbd;
+  margin: 0 5px;
+  top: 11;
+  left: -6;
+}
+
+.bigger-text {
+  font-family: "DINNext";
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  
+}
+
+.smaller-text {
+  font-family: "DINNext";
+  font-size: 0.68rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  position: relative;
+}
+
+.social-icon-kids {
+  background-image: url(https://static-mh.content.disney.io/matterhorn/assets/starwars/footer/kids-4a568b676f8f.svg);
+  margin-right: 16px;
+  background-size: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.sm-col {
+  margin-right: 16px;
+  background-size: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.termsColSty {
+  display: flex;
+  justify-content: center;
+}
+
+.startTerm{
+  display: flex;
+  margin-bottom: -5px;
+}
+.lastTerm{
+  display: flex;
+  justify-content: flex-start;
+}
