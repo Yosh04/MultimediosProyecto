@@ -25,6 +25,7 @@ function App() {
         
         <BarInfo></BarInfo>
         
+        
       </header>
       <CarouselComponent />
       <Footer />  
