@@ -6,6 +6,7 @@ import IconsLeft from './components/socialIcons';
 import ResearchIcon from './components/searchIcons';
 import BarInfo from './components/AppBarInfo';
 import CarouselComponent from './components/CarouselComponent';
+import Section2clips from './components/Secction2clips';
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +29,8 @@ function App() {
         
       </header>
       <CarouselComponent />
+      <Section2clips></Section2clips>
+
       <Footer />  
     </div>
   );
