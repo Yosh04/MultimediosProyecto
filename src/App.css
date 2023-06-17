@@ -154,7 +154,7 @@ Codigo CCS de Tony
 .separator {
   position: relative;
   width: 1px;
-  height: 38px;
+  height: 24px;
   background-color: #b5bcbd;
   margin: 0 20px;
   top: 11;
@@ -164,10 +164,10 @@ Codigo CCS de Tony
 .s-separator {
   position: relative;
   width: 1px;
-  height: 16px;
+  height: 15px;
   background-color: #b5bcbd;
   margin: 0 5px;
-  top: 11;
+  top: 20;
   left: -6;
 }
 
@@ -189,7 +189,7 @@ Codigo CCS de Tony
 
 .smaller-text {
   font-family: "DINNext";
-  font-size: 0.68rem;
+  font-size: 0.60rem;
   line-height: 1rem;
   font-weight: 500;
   color: #fff;
@@ -231,4 +231,7 @@ Codigo CCS de Tony
 .lastTerm{
   display: flex;
   justify-content: flex-start;
+}
+.iconSize{
+  font-Size: 20px;
 }
