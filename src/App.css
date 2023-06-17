@@ -103,3 +103,34 @@ a:hover {
 .AppBarInfoDiv{
   margin-left: 52px;
 }
+
+.carousel {
+  background-color: black;
+}
+.carousel-item img {
+  width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
+  height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
+}
+
+.carousel-caption {
+  color: white; /* Cambia el color del texto de la descripción */
+}
+
+.carousel-caption h3 {
+  font-size: 24px; /* Ajusta el tamaño del título */
+}
+
+.carousel-caption p {
+  font-size: 16px; /* Ajusta el tamaño del texto de descripción */
+}
+
+.carousel-caption a {
+  color: yellow; /* Cambia el color de los enlaces */
+}
+
+.carousel-caption button {
+  background-color: blue; /* Cambia el color de fondo del botón */
+  color: white; /* Cambia el color del texto del botón */
+  border: none; /* Quita los bordes del botón si lo deseas */
+  padding: 10px 20px; /* Ajusta el padding del botón según tus necesidades */
+}
