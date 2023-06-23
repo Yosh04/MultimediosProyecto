@@ -66,11 +66,11 @@
 }
 .sm-col {
   margin-right: 16px;
-  background-size: 48px;
+  background-size: 88px;
   background-position: center;
   background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
+  width: 88px;
+  height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
