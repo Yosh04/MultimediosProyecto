@@ -114,8 +114,12 @@ a:hover {
   margin-left: 52px;
 }
 
-
-
+/*Component content Hero*/
+.SectionContentHero{
+  width: 1600px;
+  height: 640px;
+  background-image: url(https://drive.google.com/file/d/1Sl-bGWmxuOhE0iEHwVErxe0d2rn4LD6k/view?usp=sharing);
+}
 
 
 
