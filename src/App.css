@@ -118,13 +118,44 @@ a:hover {
 .SectionContentHero{
   width: 1600px;
   height: 640px;
-  background-image: url(https://drive.google.com/file/d/1Sl-bGWmxuOhE0iEHwVErxe0d2rn4LD6k/view?usp=sharing);
+  background:#0f0;
 }
 
 
 
+/*NewFacturesCorouse*/
+.NewFacturesCorouse{
+  height: 425px;
+  width: 1392px;
+  
+}
 
+.NewFacturesCorouseItem{
+  height: 312px;
+  width: 448px;
+  
+}
 
+.NewFacturesCorouseItemContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.NewFeactureGroupItem{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.NewFacturesCorouseImg{
+  height: 116px;
+  width: 448px;
+}
+
+.NewFacturesCorouseElement{
+  background:#1d1e1f;
+  height: 152px;
+  width: 448px;
+}
 
 
 

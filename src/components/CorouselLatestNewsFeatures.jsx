@@ -1,0 +1,135 @@
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+
+function CorouselNewsFeatures() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
+  return (
+    <Carousel class="NewFacturesCorouse" activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item class="NewFacturesCorouseItem">
+
+        <div class="NewFacturesCorouseItemContainer">
+
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+
+
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          
+        </div>
+      </Carousel.Item>
+
+      <Carousel.Item class="NewFacturesCorouseItem">
+        <div class="NewFacturesCorouseItemContainer">
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          
+        </div>
+      </Carousel.Item>
+      <Carousel.Item class="NewFacturesCorouseItem">
+        <div class="NewFacturesCorouseItemContainer">
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          <div class="NewFeactureGroupItem">
+            <img
+              className="d-block w-10 NewFacturesCorouseImg"
+              src="https://acortar.link/iKItc4"
+              alt="First slide"
+              style={{ width: '448px', height: '116px' }}
+            />
+            <Carousel.Caption class="NewFacturesCorouseElement">
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </div>
+          
+          
+        </div>
+      </Carousel.Item>
+
+    </Carousel>
+  );
+}
+
+export default CorouselNewsFeatures;
