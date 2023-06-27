@@ -114,13 +114,48 @@ a:hover {
   margin-left: 52px;
 }
 
+/*Component content Hero*/
+.SectionContentHero{
+  width: 1600px;
+  height: 640px;
+  background:#0f0;
+}
 
 
 
+/*NewFacturesCorouse*/
+.NewFacturesCorouse{
+  height: 425px;
+  width: 1392px;
+  
+}
 
+.NewFacturesCorouseItem{
+  height: 312px;
+  width: 448px;
+  
+}
 
+.NewFacturesCorouseItemContainer{
+  display: flex;
+  flex-direction: row;
+}
 
+.NewFeactureGroupItem{
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
+.NewFacturesCorouseImg{
+  height: 116px;
+  width: 448px;
+}
+
+.NewFacturesCorouseElement{
+  background:#1d1e1f;
+  height: 152px;
+  width: 448px;
+}
 
 
 

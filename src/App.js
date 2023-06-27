@@ -7,6 +7,8 @@ import ResearchIcon from './components/searchIcons';
 import BarInfo from './components/AppBarInfo';
 import CarouselComponent from './components/CarouselComponent';
 import Section2clips from './components/Secction2clips';
+import ContentHero from './components/contentHero';
+import CorouselNewsFeatures from './components/CorouselLatestNewsFeatures';
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,6 +32,8 @@ function App() {
       </header>
       <CarouselComponent />
       <Section2clips></Section2clips>
+      <ContentHero></ContentHero>
+      <CorouselNewsFeatures></CorouselNewsFeatures>
 
       <Footer />  
     </div>
