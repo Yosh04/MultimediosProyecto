@@ -118,7 +118,7 @@ a:hover {
 .SectionContentHero{
   width: 1600px;
   height: 640px;
-  background:#0f0;
+  background: #dddddddd;
 }
 
 
@@ -156,7 +156,72 @@ a:hover {
   height: 152px;
   width: 448px;
 }
+/*
+Código de la notch
+*/
+.notchT{
+  background-color: transparent;
+  position: absolute;
+  bottom: -14px;
+  height: 14px;
+  left: 0;
+  width: 100%;
+  display: block;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+.notch-left-diagonalT{
+  left: 0;
+    border-right: 14px solid transparent;
+    width: 50%;
+}
 
+.notch-rigth-diagonalT{
+  right: 0;
+    border-left: 14px solid transparent;
+    width: 18%;
+}
+
+.notch{
+  width: 6rem;
+  height: 1rem;
+  background-color: rgb(28, 31, 31);
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.notch-left-diagonal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: red;
+  /*
+  background-color: rgb(28, 31, 31);
+  */
+  transform-origin: bottom right;
+  transform: skew(-45deg);
+  margin-left: -1rem;
+}
+
+.notch-rigth-diagonal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: rgb(28, 31, 31);
+   /*
+  background-color: rgb(28, 31, 31);
+  */
+  transform-origin: bottom right;
+  transform: skew(45deg);
+  margin-left: 6rem;
+}
 
 
 
