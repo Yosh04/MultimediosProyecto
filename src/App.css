@@ -90,10 +90,6 @@ a:visited {
   color: #99999999;
 }
 
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
 
 .SubBarInfor{
   background-color: #0a0b0b;
@@ -123,22 +119,42 @@ a:hover {
 
 
 
-/*NewFacturesCorouse*/
-.NewFacturesCorousel{
+/*NewFeaturesCarousel*/
+.DivMaster{
   height: 325px;
-  width: 1392px;
-  border:2px solid aqua !important;
+  width: 1600px;
   background-color: #000;
+  border: 2px solid aqua;
 }
 
-.NewFacturesCorouseItem{
+.DivTitle{
+  background-color: #000;
+  color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+}
+
+.NewFeaturesCarousel{
+  height: 325px;
+  width: 1600px;
+  background-color: #000;
+  
+}
+
+.NewFeaturesCarouselItem{
   height: 312px;
   width: 448px;
+  display: flex;
+  align-items: center;
 }
 
-.NewFacturesCorouseItemContainer{
+.NewFeaturesCarouselItemContainer{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .NewFeactureGroupItem{
@@ -146,12 +162,12 @@ a:hover {
   margin-right: 8px;
 }
 
-.NewFacturesCorouseImg{
+.NewFeaturesCarouselImg{
   height: 141px;
   width: 448px;
 }
 
-.NewFacturesCorouseElement{
+.NewFeaturesCarouselElement{
   background:#1d1e1f;
   height: 125px;
   width: 448px;
@@ -259,6 +275,7 @@ Codigo CCS de Tony
   position: relative;
   margin: 0;
   background-color: #000;
+  width: 1600px;
 }
 .separator {
   position: relative;
@@ -316,6 +333,16 @@ Codigo CCS de Tony
   width: 48px;
   height: 48px;
 }
+.social-icon-kids:link{
+  color: white;
+  text-decoration: none;
+}
+.social-icon-kids:visited{
+  color: white;
+}
+.social-icon-kids:hover{
+  color: red;
+}
 .sm-col {
   margin-right: 16px;
   background-size: 48px;
@@ -326,6 +353,17 @@ Codigo CCS de Tony
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.sm-col:link{
+  color: white;
+  text-decoration: none;
+}
+.sm-col:visited{
+  color: white;
+}
+
+.sm-col:hover{
+  color: grey;
 }
 
 .termsColSty {

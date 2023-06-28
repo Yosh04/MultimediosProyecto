@@ -33,6 +33,7 @@ function App() {
       <CarouselComponent />
       <Section2clips></Section2clips>
       <ContentHero></ContentHero>
+      
       <CorouselNewsFeatures></CorouselNewsFeatures>
 
       <Footer />  
