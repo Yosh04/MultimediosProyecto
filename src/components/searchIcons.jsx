@@ -3,7 +3,7 @@ import React from 'react';
 const ResearchIcon = () => {
     return (
         <div class='searchbar right'>
-            <ul class='listIcons '>
+            <ul class='listIconsSocial '>
                 <li class='social-icon searsicon '>
                     <button class='listIcons '>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">

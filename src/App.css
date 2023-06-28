@@ -1,24 +1,27 @@
 
-/*Código CSS general*/
+/*Código CSS App.js*/
 .App {
   text-align: center;
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
+.Section_container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
 }
 
+.Sections_Items_container{
+  width: 1600px;
+}
 
-
-
-
+.App-header {
+  color: white;
+  height: 250px;
+  background-color: #000000;
+  font-size: calc(10px + 2vmin);
+  outline: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+}
 
 /*Codigo Yosh CSS*/ 
 .principal-header{
@@ -28,6 +31,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 
 .local-nav-logo {
   width: 230px;
@@ -41,21 +45,39 @@
   object-fit: cover;
 }
 
-.listIcons{
+
+/*Modulo Header titulo */
+.AppBarInfoDiv{
+  margin-top:auto;
+}
+.AppBarListInfo{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-
-.social-icon{
+.AppSocial-li{
   list-style-type: none;
   margin-right: 10px;
 }
+.AppBarInfoElement{
+
+}
+
+
+/*Componente no identificado. (Icons social creo)*/
+
 
 .social{
   margin-right: -20px;
+}
+
+.listIconsSocial{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .social-icon button {
@@ -93,10 +115,10 @@ a:visited {
 
 .SubBarInfor{
   background-color: #0a0b0b;
-  width: 100vw;
   height: 66px;
   padding-top: 10px;
   border-top: #4e4e4edd solid 1px;
+  color:#fff;
 }
 
 .SubBarListLI{
@@ -106,9 +128,7 @@ a:visited {
   justify-content: center;
 }
 
-.AppBarInfoDiv{
-  margin-left: 52px;
-}
+
 
 /*Component content Hero*/
 .SectionContentHero{
@@ -275,7 +295,6 @@ Codigo CCS de Tony
   position: relative;
   margin: 0;
   background-color: #000;
-  width: 1600px;
 }
 .separator {
   position: relative;

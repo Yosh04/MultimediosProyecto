@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 const IconsLeft = () => {
   return (
     <div class="social-links left ">
-      <ul class="listIcons">
+      <ul class="listIconsSocial">
         <li class="facebook social-icon social">
           <a
             class="sm-col"
