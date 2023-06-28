@@ -100,7 +100,7 @@ a:hover {
   width: 100vw;
   height: 66px;
   padding-top: 10px;
-  border-top: #dddddddd solid 1px;
+  border-top: #4e4e4edd solid 1px;
 }
 
 .SubBarListLI{
@@ -118,22 +118,22 @@ a:hover {
 .SectionContentHero{
   width: 1600px;
   height: 640px;
-  background: #dddddddd;
+  background: #9b9b9bdd;
 }
 
 
 
 /*NewFacturesCorouse*/
-.NewFacturesCorouse{
-  height: 425px;
+.NewFacturesCorousel{
+  height: 325px;
   width: 1392px;
-  
+  border:2px solid aqua !important;
+  background-color: #000;
 }
 
 .NewFacturesCorouseItem{
   height: 312px;
   width: 448px;
-  
 }
 
 .NewFacturesCorouseItemContainer{
@@ -147,65 +147,30 @@ a:hover {
 }
 
 .NewFacturesCorouseImg{
-  height: 116px;
+  height: 141px;
   width: 448px;
 }
 
 .NewFacturesCorouseElement{
   background:#1d1e1f;
-  height: 152px;
+  height: 125px;
   width: 448px;
+  position: relative;
+  color:#fff;
 }
 /*
 Código de la notch
 */
-.notchT{
-  background-color: transparent;
-  position: absolute;
-  bottom: -14px;
-  height: 14px;
-  left: 0;
-  width: 100%;
-  display: block;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  overflow: hidden;
-  z-index: 1;
-}
-.notch-left-diagonalT{
-  left: 0;
-    border-right: 14px solid transparent;
-    width: 50%;
-}
 
-.notch-rigth-diagonalT{
-  right: 0;
-    border-left: 14px solid transparent;
-    width: 18%;
-}
 
 .notch{
   width: 6rem;
   height: 1rem;
-  background-color: rgb(28, 31, 31);
+  background-color: #000;
   position: absolute;
   bottom: 0;
   right: 40px;
-}
 
-.notch-left-diagonal{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1rem;
-  height: 100%;
-  background-color: red;
-  /*
-  background-color: rgb(28, 31, 31);
-  */
-  transform-origin: bottom right;
-  transform: skew(-45deg);
-  margin-left: -1rem;
 }
 
 .notch-rigth-diagonal{
@@ -214,15 +179,26 @@ Código de la notch
   left: 0;
   width: 1rem;
   height: 100%;
-  background-color: rgb(28, 31, 31);
-   /*
-  background-color: rgb(28, 31, 31);
-  */
+  background-color: #000;
   transform-origin: bottom right;
   transform: skew(45deg);
   margin-left: 6rem;
 }
 
+.notch-left-diagonal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: #000;
+  /*
+  background-color: rgb(28, 31, 31);
+  */
+  transform-origin: bottom right;
+  transform: skew(-45deg);
+  margin-left: -1rem;
+}
 
 
 
