@@ -2,6 +2,10 @@
 /*Código CSS App.js*/
 .App {
   text-align: center;
+}
+
+/*Código para el fondo de color negro con img*/
+.base-bg{
   background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
   background-position: center top;
   background-repeat: repeat;
@@ -9,8 +13,16 @@
   top: 0 !important;
   min-height: 100vh;
   left: auto !important;
-
 }
+
+.base-bg, .secondary-bg{
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 
 .Section_container{
   display: flex;
