@@ -4,6 +4,26 @@
   text-align: center;
 }
 
+/*Código para el fondo de color negro con img*/
+.base-bg{
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
+  background-position: center top;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0 !important;
+  min-height: 100vh;
+  left: auto !important;
+}
+
+.base-bg, .secondary-bg{
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
 .Section_container{
   display: flex;
   justify-content: center;
@@ -30,6 +50,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 
 
@@ -67,9 +88,7 @@
 }
 
 
-/*Componente no identificado. (Icons social creo)*/
-
-
+/*Componentes Social Icons y searchIcons.*/
 .social{
   margin-right: -20px;
 }
@@ -84,28 +103,56 @@
   border: none;
   background: none;
   padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
-.h3 {
-  color: white !important;
-
+.search-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  text-transform: uppercase;
 }
 
 .local-nav-logo{
   margin: 34px;
 }
 
+
+/*Componente de social icons*/
 .searchbar{
-  margin: 52px;
+  margin: 52;
+  width: 298px;
 }
 
 .social-links{
   margin: 40px;
 }
 
-.searsicon{
-  margin-left: 40px;
+.inputContainer {
+  position: relative;
+}
 
+.inputContainer input {
+  width: 350px;
+}
+
+.inputContainer .IconSearch{
+  position: absolute;
+  top: 2px;
+  right: 260px;
+  height: 30px;
+}
+
+.inputContainer button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 30px;
 }
 
 a:visited {
@@ -194,11 +241,9 @@ a:visited {
   position: relative;
   color:#fff;
 }
-/*
-Código de la notch
-*/
 
 
+/*Código de la notch*/
 .notch{
   width: 6rem;
   height: 1rem;
@@ -206,7 +251,6 @@ Código de la notch
   position: absolute;
   bottom: 0;
   right: 40px;
-
 }
 
 .notch-rigth-diagonal{
@@ -228,9 +272,6 @@ Código de la notch
   width: 1rem;
   height: 100%;
   background-color: #000;
-  /*
-  background-color: rgb(28, 31, 31);
-  */
   transform-origin: bottom right;
   transform: skew(-45deg);
   margin-left: -1rem;

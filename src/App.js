@@ -19,24 +19,26 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='principal-header'>
-          <IconsLeft></IconsLeft>
-          <LogoStarWars></LogoStarWars>
-          <ResearchIcon></ResearchIcon>
+      <div className='base-bg'> </div>
+      <div className='secondary-bg'> </div>
+        <header className="App-header">
+          <div className='principal-header'>
+            <IconsLeft></IconsLeft>
+            <LogoStarWars></LogoStarWars>
+            <ResearchIcon></ResearchIcon>
+          </div>
+          <BarInfo></BarInfo>
+        </header>
+        <div className='Section_container'>
+          <div className='Sections_Items_container'>
+            <HearderTile></HearderTile>
+            <CarouselComponent />
+            <Section2clips></Section2clips>
+            <ContentHero></ContentHero>
+            <CorouselNewsFeatures></CorouselNewsFeatures>
+          </div>
         </div>
-        <BarInfo></BarInfo>
-      </header>
-      <div className='Section_container'>
-        <div className='Sections_Items_container'>
-          <HearderTile></HearderTile>
-          <CarouselComponent />
-          <Section2clips></Section2clips>
-          <ContentHero></ContentHero>
-          <CorouselNewsFeatures></CorouselNewsFeatures>
-        </div>
-      </div>
-      <Footer />
+        <Footer />
     </div>
   );
 }
