@@ -1,24 +1,47 @@
 
-/*Código CSS general*/
+/*Código CSS App.js*/
 .App {
   text-align: center;
 }
 
-.App-header {
-  background-color: #000000;
-  min-height: 16vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*Código para el fondo de color negro con img*/
+.base-bg{
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
+  background-position: center top;
+  background-repeat: repeat;
+  position: fixed;
+  top: 0 !important;
+  min-height: 100vh;
+  left: auto !important;
+}
+
+.base-bg, .secondary-bg{
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 
+.Section_container{
+  display: flex;
+  justify-content: center;
+}
 
+.Sections_Items_container{
+  width: 1600px;
+}
 
-
+.App-header {
+  color: white;
+  height: 250px;
+  background-color: #000000;
+  font-size: calc(10px + 2vmin);
+  outline: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+}
 
 /*Codigo Yosh CSS*/ 
 .principal-header{
@@ -27,7 +50,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
+
 
 .local-nav-logo {
   width: 230px;
@@ -41,66 +66,106 @@
   object-fit: cover;
 }
 
-.listIcons{
+
+/*Modulo Header titulo */
+.AppBarInfoDiv{
+  margin-top:auto;
+}
+.AppBarListInfo{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-
-.social-icon{
+.AppSocial-li{
   list-style-type: none;
   margin-right: 10px;
 }
+.AppBarInfoElement{
 
+}
+
+
+/*Componentes Social Icons y searchIcons.*/
 .social{
   margin-right: -20px;
+}
+
+.listIconsSocial{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .social-icon button {
   border: none;
   background: none;
   padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
-.h3 {
-  color: white !important;
-
+.search-title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  text-transform: uppercase;
 }
 
 .local-nav-logo{
   margin: 34px;
 }
 
+
+/*Componente de social icons*/
 .searchbar{
-  margin: 52px;
+  margin: 52;
+  width: 298px;
 }
 
 .social-links{
   margin: 40px;
 }
 
-.searsicon{
-  margin-left: 40px;
+.inputContainer {
+  position: relative;
+}
 
+.inputContainer input {
+  width: 350px;
+}
+
+.inputContainer .IconSearch{
+  position: absolute;
+  top: 2px;
+  right: 260px;
+  height: 30px;
+}
+
+.inputContainer button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 30px;
 }
 
 a:visited {
   color: #99999999;
 }
 
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
 
 .SubBarInfor{
   background-color: #0a0b0b;
-  width: 100vw;
   height: 66px;
   padding-top: 10px;
-  border-top: #dddddddd solid 1px;
+  border-top: #4e4e4edd solid 1px;
+  color:#fff;
 }
 
 .SubBarListLI{
@@ -110,8 +175,106 @@ a:hover {
   justify-content: center;
 }
 
-.AppBarInfoDiv{
-  margin-left: 52px;
+
+
+/*Component content Hero*/
+.SectionContentHero{
+  width: 1600px;
+  height: 640px;
+  background: #9b9b9bdd;
+}
+
+
+
+/*NewFeaturesCarousel*/
+.DivMaster{
+  height: 325px;
+  width: 1600px;
+  background-color: #000;
+  border: 2px solid aqua;
+}
+
+.DivTitle{
+  background-color: #000;
+  color: white;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 25px;
+}
+
+.NewFeaturesCarousel{
+  height: 325px;
+  width: 1600px;
+  background-color: #000;
+  
+}
+
+.NewFeaturesCarouselItem{
+  height: 312px;
+  width: 448px;
+  display: flex;
+  align-items: center;
+}
+
+.NewFeaturesCarouselItemContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NewFeactureGroupItem{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.NewFeaturesCarouselImg{
+  height: 141px;
+  width: 448px;
+}
+
+.NewFeaturesCarouselElement{
+  background:#1d1e1f;
+  height: 125px;
+  width: 448px;
+  position: relative;
+  color:#fff;
+}
+
+
+/*Código de la notch*/
+.notch{
+  width: 6rem;
+  height: 1rem;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.notch-rigth-diagonal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: #000;
+  transform-origin: bottom right;
+  transform: skew(45deg);
+  margin-left: 6rem;
+}
+
+.notch-left-diagonal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: #000;
+  transform-origin: bottom right;
+  transform: skew(-45deg);
+  margin-left: -1rem;
 }
 
 
@@ -282,6 +445,16 @@ Codigo CCS de Tony
   width: 48px;
   height: 48px;
 }
+.social-icon-kids:link{
+  color: white;
+  text-decoration: none;
+}
+.social-icon-kids:visited{
+  color: white;
+}
+.social-icon-kids:hover{
+  color: red;
+}
 .sm-col {
   margin-right: 16px;
   background-size: 48px;
@@ -292,6 +465,17 @@ Codigo CCS de Tony
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.sm-col:link{
+  color: white;
+  text-decoration: none;
+}
+.sm-col:visited{
+  color: white;
+}
+
+.sm-col:hover{
+  color: grey;
 }
 
 .termsColSty {
