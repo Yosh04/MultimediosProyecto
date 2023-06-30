@@ -37,7 +37,6 @@ function App() {
         <div className='Section_container'>
           <div className='Sections_Items_container'>
             <HearderTile></HearderTile>
-            <CarouselComponent />
             <Section2clips></Section2clips>
             <ContentHero></ContentHero>
             <CorouselNewsFeatures></CorouselNewsFeatures>
