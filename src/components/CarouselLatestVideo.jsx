@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function CorouselNewsFeatures() {
+function CarouselLatestVideo() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -12,9 +12,18 @@ function CorouselNewsFeatures() {
     <div className="DivMaster">
     <div className="DivTitle">
       <h2>
-      Latest News + Features
+      Latest Video
       </h2>
-    </div>
+      <a
+          className="bot-a-final"
+          style={{}}
+          href="/z"
+        >
+          View All
+          <span className="bot-a-final-after"></span>
+        </a>
+      </div>
+      <span className="afterSpanInDiv"></span>
     <Carousel
       class="NewFeaturesCarousel"
       activeIndex={index}
@@ -188,4 +197,4 @@ function CorouselNewsFeatures() {
   );
 }
 
-export default CorouselNewsFeatures;
+export default CarouselLatestVideo;
