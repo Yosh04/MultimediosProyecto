@@ -80,14 +80,14 @@
   list-style-type: none;
   margin-right: 10px;
 }
-.AppBarInfoElement {
+.AppSocial-li a{
+  text-decoration: none;
 }
 
 
 /*Componentes searchIcons.*/
 .searchbar{
-  width: 500px;
-  border:2px solid aqua;
+  width: 520px;
   display: flex;
   justify-content: flex-end;
   margin-right: 40px;
@@ -159,8 +159,77 @@
   height: 30px;
 }
 
+/*Codigo del modal se sign up y el boton*/
+.botonUser {
 
+  display: flex;
+  align-items: center;
+}
 
+.botonUser svg {
+  margin-right: 5px;
+}
+
+.bgModal{
+  --bs-body-bg: #181818;
+  --bs-border-color: none!important;
+  padding-bottom: 40px;
+}
+.modal-dialog{
+  padding-bottom: 20px;
+}
+.LogosModalSignUp img{
+    width: 200px;
+    margin-right: 60px;
+    height: 80px;
+    margin-top: 20px;
+}
+.headerModal{
+  display: flex;
+}
+.LogosModalSignUp{
+  display: flex; 
+  justify-content: center;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff9908;
+}
+.modal-body h1 {
+  text-align: center;
+}
+.modal-body input {
+  width: 700px;
+  height: 50px;
+  color: #888;
+  padding-left: 10px;
+  border-color: #f8f8f8;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.modal-body input:focus {
+  background-color: #484848;
+  color: #edd700;
+}
+.modal-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-footer button{
+  width: 700px;
+  background-color: #666;
+  height: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.modal-footer button:hover{
+  background-color: #3f6dac;
+}
 
 
 
@@ -169,9 +238,11 @@
   margin-right: -20px;
 }
 
-
+/*Codigo para centrar el logo*/
 .social-links{
   margin: 40px;
+  padding-right: 90px;
+  padding-left: 20px;
 }
 
 
@@ -502,6 +573,7 @@ Codigo CCS de Tony
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
+
 }
 .social-icon-kids:link {
   color: white;

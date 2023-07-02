@@ -32,7 +32,7 @@ function App() {
         <header className="App-header">
           <div className='principal-header'>
             <IconsLeft></IconsLeft>
-            <LogoStarWars></LogoStarWars>
+            <LogoStarWars className="LogoStarWars2"></LogoStarWars>
             <ResearchIcon></ResearchIcon>
           </div>
           <BarInfo></BarInfo>
