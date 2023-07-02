@@ -9,7 +9,9 @@ import HearderTile from './components/SubAppBarInfo';
 import CarouselComponent from './components/CarouselComponent';
 import Section2clips from './components/Secction2clips';
 import ContentHero from './components/contentHero';
-import CorouselNewsFeatures from './components/CorouselLatestNewsFeatures';
+import CarouselNewsFeatures from './components/CarouselLatestNewsFeatures';
+import CarouselExploreMore from './components/carouselExploreMore';
+import CarouselLatestVideo from './components/CarouselLatestVideo';
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -35,9 +37,14 @@ function App() {
             <CarouselComponent />
             <Section2clips></Section2clips>
             <ContentHero></ContentHero>
-            <CorouselNewsFeatures></CorouselNewsFeatures>
+            <CarouselNewsFeatures></CarouselNewsFeatures>
+            <span className='afterSpan'></span>
+            <CarouselLatestVideo></CarouselLatestVideo>
+            <span className='afterSpan'></span>
+            <CarouselExploreMore></CarouselExploreMore>
           </div>
         </div>
+        <span className='afterSpan'></span>
         <Footer />
     </div>
   );

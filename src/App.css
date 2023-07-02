@@ -1,11 +1,10 @@
-
 /*Código CSS App.js*/
 .App {
   text-align: center;
 }
 
 /*Código para el fondo de color negro con img*/
-.base-bg{
+.base-bg {
   background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
   background-position: center top;
   background-repeat: repeat;
@@ -15,7 +14,8 @@
   left: auto !important;
 }
 
-.base-bg, .secondary-bg{
+.base-bg,
+.secondary-bg {
   height: 100%;
   width: 100%;
   bottom: 0;
@@ -23,13 +23,12 @@
   z-index: -1;
 }
 
-
-.Section_container{
+.Section_container {
   display: flex;
   justify-content: center;
 }
 
-.Sections_Items_container{
+.Sections_Items_container {
   width: 1600px;
 }
 
@@ -43,8 +42,8 @@
   flex-direction: column;
 }
 
-/*Codigo Yosh CSS*/ 
-.principal-header{
+/*Codigo Yosh CSS*/
+.principal-header {
   height: 183px;
   width: 100vw;
   display: flex;
@@ -52,7 +51,6 @@
   justify-content: space-between;
   position: relative;
 }
-
 
 .local-nav-logo {
   width: 230px;
@@ -66,12 +64,11 @@
   object-fit: cover;
 }
 
-
 /*Modulo Header titulo */
-.AppBarInfoDiv{
-  margin-top:auto;
+.AppBarInfoDiv {
+  margin-top: auto;
 }
-.AppBarListInfo{
+.AppBarListInfo {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -79,21 +76,19 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.AppSocial-li{
+.AppSocial-li {
   list-style-type: none;
   margin-right: 10px;
 }
-.AppBarInfoElement{
-
+.AppBarInfoElement {
 }
 
-
 /*Componentes Social Icons y searchIcons.*/
-.social{
+.social {
   margin-right: -20px;
 }
 
-.listIconsSocial{
+.listIconsSocial {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -118,18 +113,17 @@
   text-transform: uppercase;
 }
 
-.local-nav-logo{
+.local-nav-logo {
   margin: 34px;
 }
 
-
 /*Componente de social icons*/
-.searchbar{
+.searchbar {
   margin: 52;
   width: 298px;
 }
 
-.social-links{
+.social-links {
   margin: 40px;
 }
 
@@ -141,7 +135,7 @@
   width: 350px;
 }
 
-.inputContainer .IconSearch{
+.inputContainer .IconSearch {
   position: absolute;
   top: 2px;
   right: 260px;
@@ -159,92 +153,132 @@ a:visited {
   color: #99999999;
 }
 
-
-.SubBarInfor{
+.SubBarInfor {
   background-color: #0a0b0b;
   height: 66px;
   padding-top: 10px;
   border-top: #4e4e4edd solid 1px;
-  color:#fff;
+  color: #fff;
 }
 
-.SubBarListLI{
+.SubBarListLI {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-
-
 /*Component content Hero*/
-.SectionContentHero{
+.SectionContentHero {
   width: 1600px;
   height: 640px;
   background: #9b9b9bdd;
 }
 
-
-
 /*NewFeaturesCarousel*/
-.DivMaster{
+.DivMaster {
   height: 325px;
   width: 1600px;
   background-color: #000;
-  border: 2px solid aqua;
+  border: 2px solid black;
 }
 
-.DivTitle{
+.afterSpanInDiv {
+  display: inline-block;
+  border-top: 2px solid #000;
+  margin: 5px 0;
+}
+
+.DivTitle {
   background-color: #000;
   color: white;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 25px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DINNext";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
 }
-
-.NewFeaturesCarousel{
+.afterSpan {
+  display: inline-block;
+  border-top: 2px solid rgb(55,60, 62);
+  margin: 10px 0;
+}
+.NewFeaturesCarousel {
   height: 325px;
   width: 1600px;
   background-color: #000;
-  
 }
 
-.NewFeaturesCarouselItem{
+.NewFeaturesCarouselItem {
   height: 312px;
   width: 448px;
   display: flex;
   align-items: center;
 }
 
-.NewFeaturesCarouselItemContainer{
+.NewFeaturesCarouselItemContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.NewFeactureGroupItem{
+.NewFeactureGroupItem {
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.NewFeaturesCarouselImg{
+.NewFeaturesCarouselImg {
   height: 141px;
   width: 448px;
 }
 
-.NewFeaturesCarouselElement{
-  background:#1d1e1f;
+.NewFeaturesCarouselElement {
+  background: #1d1e1f;
   height: 125px;
   width: 448px;
   position: relative;
-  color:#fff;
+  color: #fff;
 }
 
+.bot-a-final {
+  background-color: #000;
+  color: white;
+  min-height: 0;
+  min-width: max-content;
+  margin: 0 0 0 24px;
+  padding-right: 20px;
+  padding-left: 0;
+  position: relative;
+  font-family: "DINNext";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.bot-a-final-after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  background-image: url(https://static-mh.content.disney.io/matterhorn/assets/starwars/icons/view_all_icon-ddd4c2e76fa3.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 3px;
+  background-size: 9px;
+  top: 0;
+}
 
 /*Código de la notch*/
-.notch{
+.notch {
   width: 6rem;
   height: 1rem;
   background-color: #000;
@@ -253,7 +287,7 @@ a:visited {
   right: 40px;
 }
 
-.notch-rigth-diagonal{
+.notch-rigth-diagonal {
   position: absolute;
   top: 0;
   left: 0;
@@ -265,7 +299,7 @@ a:visited {
   margin-left: 6rem;
 }
 
-.notch-left-diagonal{
+.notch-left-diagonal {
   position: absolute;
   top: 0;
   left: 0;
@@ -276,9 +310,6 @@ a:visited {
   transform: skew(-45deg);
   margin-left: -1rem;
 }
-
-
-
 
 /*
 Codigo CCS de Peter
@@ -314,20 +345,10 @@ Codigo CCS de Peter
   padding: 10px 20px; /* Ajusta el padding del botón según tus necesidades */
 }
 
-
-
-
-
-
-
-
-
-
-
 /*
 Codigo CCS de Tony
 */
-.bond {
+.footer {
   padding: 32px 22px;
   background-image: url(https://static-mh.content.disney.io/matterhorn/assets/starwars/footer/flourish-6a31057fffa9.svg);
   background-repeat: no-repeat;
@@ -337,7 +358,7 @@ Codigo CCS de Tony
   margin: 0;
   background-color: #000;
 }
-.separator {
+.icons-separator {
   position: relative;
   width: 1px;
   height: 24px;
@@ -347,7 +368,7 @@ Codigo CCS de Tony
   left: -16;
 }
 
-.s-separator {
+.text-separator {
   position: relative;
   width: 1px;
   height: 15px;
@@ -369,13 +390,11 @@ Codigo CCS de Tony
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  
-  
 }
 
 .smaller-text {
   font-family: "DINNext";
-  font-size: 0.60rem;
+  font-size: 0.6rem;
   line-height: 1rem;
   font-weight: 500;
   color: #fff;
@@ -393,14 +412,14 @@ Codigo CCS de Tony
   width: 48px;
   height: 48px;
 }
-.social-icon-kids:link{
+.social-icon-kids:link {
   color: white;
   text-decoration: none;
 }
-.social-icon-kids:visited{
+.social-icon-kids:visited {
   color: white;
 }
-.social-icon-kids:hover{
+.social-icon-kids:hover {
   color: red;
 }
 .sm-col {
@@ -414,36 +433,36 @@ Codigo CCS de Tony
   align-items: center;
   justify-content: center;
 }
-.sm-col:link{
+.sm-col:link {
   color: white;
   text-decoration: none;
 }
-.sm-col:visited{
+.sm-col:visited {
   color: white;
 }
 
-.sm-col:hover{
+.sm-col:hover {
   color: grey;
 }
 
-.termsColSty {
+.terms-Col-Style {
   display: flex;
   justify-content: center;
 }
 
-.startTerm{
+.start-Term {
   display: flex;
   margin-bottom: -5px;
 }
-.lastTerm{
+.last-Term {
   display: flex;
   justify-content: flex-start;
 }
 
-.Section2ClipsDiv{
+.Section2ClipsDiv {
   height: 718px;
   width: 1225px;
-} 
-.iconSize{
-  font-Size: 20px;
+}
+.iconSize {
+  font-size: 20px;
 }
