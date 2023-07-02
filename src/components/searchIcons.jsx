@@ -37,40 +37,6 @@ const ResearchIcon = () => {
     return (
         <div class='searchbar'>
             <ul class=' listIconsHorizontal searchMargin '>
-                <li>
-                    <div className='disney'>
-                        <Button variant="primary" onClick={handleShow}>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
-                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                            </svg>
-                            <p class='search-title'>SIGN IN</p>
-                        </Button>
-
-                        <Modal show={show} onHide={handleClose} animation={false} size={'lg'} className='bgModal'>
-
-                            <Modal.Header className='headerModal' closeButton></Modal.Header>
-                            <div className='LogosModalSignUp'>
-                                <div>
-                                    <img src="https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-0.png" alt="Disney" />
-                                    <img src='https://www.freepnglogos.com/uploads/star-wars-logo-png-8.png' alt='Starwars'></img>
-                                </div>
-                            </div>
-                            <Modal.Body>
-                                <h1>Enter Your Email Address</h1>
-                            </Modal.Body>
-                            <Modal.Footer>
-                                <Button variant="secondary" onClick={handleClose}>
-                                    Close
-                                </Button>
-                                <Button variant="primary" onClick={handleClose}>
-                                    Save Changes
-                                </Button>
-                            </Modal.Footer>
-                        </Modal>
-                    </div>
-                </li>
                 <li class='social-icon'>
                     {!showInput ? (
                         <div className="inputContainer">
@@ -91,8 +57,36 @@ const ResearchIcon = () => {
                         </div>
                     )}
                 </li>
-
-
+                <li class='social-icon'>
+                    <div className='disney'>
+                        <Button className='botonUser' onClick={handleShow}>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                            <p class='search-title'>SIGN IN</p>
+                        </Button>
+                        <Modal  show={show} onHide={handleClose} animation={false} size={'lg'} className='bgModal'>
+                            <div className='LogosModalSignUp'>
+                                <div>
+                                    <img src="https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-0.png" alt="Disney" />
+                                    <img src='https://www.freepnglogos.com/uploads/star-wars-logo-png-8.png' alt='Starwars'></img>
+                                </div>
+                            </div>
+                            <Modal.Body>
+                                <h1>Enter Your Email Address</h1>
+                                <input type='text' placeholder='Email Address'></input>
+                            </Modal.Body>
+                            <Modal.Footer>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Continue
+                                </Button>
+                                
+                            </Modal.Footer>
+                        </Modal>
+                    </div>
+                </li>
             </ul>
         </div>
     );
