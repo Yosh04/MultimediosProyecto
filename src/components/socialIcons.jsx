@@ -1,21 +1,21 @@
 import React from "react";
-import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
+import { BsFacebook , BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 
 const IconsLeft = () => {
   return (
     <div class="social-links left ">
-      <ul class="listIconsSocial">
-        <li class="facebook social-icon social">
+      <ul class=" listIconsHorizontal">
+        <li class="social">
           <a
             class="sm-col"
-            href="https://www.facebook.com/starwarsla/?brand_redir=169299103121699"
+            href="https://www. .com/starwarsla/?brand_redir=169299103121699"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsFacebook className="iconSize" />
+            <BsFacebook  className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon social">
+        <li class=" social">
           <a
             class="sm-col"
             href="https://www.instagram.com/starwars/"
@@ -25,7 +25,7 @@ const IconsLeft = () => {
             <BsInstagram className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon social">
+        <li class="social">
           <a
             class="sm-col"
             href="https://www.youtube.com/user/starwars"
@@ -35,7 +35,7 @@ const IconsLeft = () => {
             <BsYoutube className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon social">
+        <li class="social">
           <a
             class="sm-col"
             href="https://twitter.com/starwars"
@@ -45,7 +45,7 @@ const IconsLeft = () => {
             <BsTwitter className="iconSize" />
           </a>
         </li>
-        <li class="facebook social-icon social">
+        <li class="social">
           <div class="d-flex justify-content-center align-items-center">
           <span className="icons-separator"></span> 
           <a

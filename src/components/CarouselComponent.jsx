@@ -1,48 +1,34 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import React, { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-const CarouselComponent = () => {
+const CarouselComponent = ({ images }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setActiveIndex(selectedIndex);
+  };
+
   return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images3.alphacoders.com/131/thumbbig-1310689.webp"
-          alt="Slide 1"
-        />
-        <Carousel.Caption>
-          <h3>Título del Slide 1</h3>
-          <p>Descripción del Slide 1</p>
-          <a href="/enlace1">Enlace 1</a>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images8.alphacoders.com/131/thumbbig-1311649.webp"
-          alt="Slide 2"
-        />
-        <Carousel.Caption>
-          <h3>Título del Slide 2</h3>
-          <p>Descripción del Slide 2</p>
-          <a href="/enlace2">Enlace 2</a>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images3.alphacoders.com/114/thumbbig-11439.webp"
-          alt="Slide 3"
-        />
-        <Carousel.Caption>
-          <h3>Título del Slide 2</h3>
-          <p>Descripción del Slide 2</p>
-          <a href="/enlace3">Enlace 2</a>
-        </Carousel.Caption>
-      </Carousel.Item>
+    <Carousel fade activeIndex={activeIndex} onSelect={handleSelect} className="carousel">
+      {images.map((image, index) => (
+        <Carousel.Item key={index}>
+          <Card className="carousel-card">
+            <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
+            <Card.Body>
+              <Card.Title>Slide {index + 1} Title</Card.Title>
+              <Card.Text>Slide {index + 1} Description</Card.Text>
+              <Button variant="primary">Read More</Button>
+            </Card.Body>
+          </Card>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 };
 
 export default CarouselComponent;
+
+
+

@@ -83,24 +83,32 @@
 .AppBarInfoElement {
 }
 
-/*Componentes Social Icons y searchIcons.*/
-.social {
-  margin-right: -20px;
+
+/*Componentes searchIcons.*/
+.searchbar{
+  width: 500px;
+  border:2px solid aqua;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
 }
 
-.listIconsSocial {
+/*Esta propiedad la comparte searchs y social.*/
+.listIconsHorizontal{
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  height: 46px;
 }
-
+/*Es para searchs ajustar solo el margin .*/
+.searchMargin{
+  margin-top: 40px;
+}
 .social-icon button {
   border: none;
   background: none;
-  padding: 0;
   display: flex;
-  flex-direction: row;
 }
+
 
 .search-title {
   font-size: 1rem;
@@ -113,44 +121,65 @@
   text-transform: uppercase;
 }
 
-.local-nav-logo {
-  margin: 34px;
-}
-
-/*Componente de social icons*/
-.searchbar {
-  margin: 52;
-  width: 298px;
-}
-
-.social-links {
-  margin: 40px;
-}
-
 .inputContainer {
   position: relative;
+
 }
 
 .inputContainer input {
   width: 350px;
+  height: 50px;
+  background-color: #000000;
+  color: #FFF;
+  padding-left: 55px;
+  border-color: #f8f8f8;
+  border-radius: 5px;
+}
+.inputContainer input::placeholder {
+  color: gray; /* Establece el color gris para el placeholder */
 }
 
-.inputContainer .IconSearch {
+.inputContainer .IconSearch{
   position: absolute;
-  top: 2px;
   right: 260px;
   height: 30px;
+  width: 40px;
+  color: #fff;
 }
-
+.inputContainer .IconCancel{
+  position: absolute;
+  height: 30px;
+  width: 40px;
+  color: #fff;
+}
 .inputContainer button {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 40px;
   height: 30px;
 }
 
+
+
+
+
+
+/*Componente de social icons*/
+.social{
+  margin-right: -20px;
+}
+
+
+.social-links{
+  margin: 40px;
+}
+
+
 a:visited {
   color: #99999999;
+}
+.local-nav-logo{
+  margin: 34px;
 }
 
 .SubBarInfor {
@@ -317,7 +346,12 @@ Codigo CCS de Peter
 .carousel {
   background-color: black;
 }
-.carousel-item img {
+
+.carousel-card {
+  border: none; /* Elimina el borde del card */
+}
+
+.carousel-image {
   width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
   height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
 }
@@ -344,6 +378,63 @@ Codigo CCS de Peter
   border: none; /* Quita los bordes del botón si lo deseas */
   padding: 10px 20px; /* Ajusta el padding del botón según tus necesidades */
 }
+.card{
+  --bs-card-border-color: none!important;
+}
+.carousel-indicators .thumbnail-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*padding: 10px;*/
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-indicators .thumbnail-caption h5,
+.carousel-indicators .thumbnail-caption p,
+.carousel-indicators .thumbnail-caption a {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-indicators .thumbnail-caption h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.carousel-indicators .thumbnail-caption p {
+  font-size: 14px;
+}
+
+.carousel-indicators .thumbnail-caption a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.zoom-container {
+  transform: scale(1.1); /* Ajusta el valor de escala según sea necesario */
+  transition: transform 0.5s ease; /* Agrega una transición suave al zoom */
+}
+
+.zoom-container:hover {
+  transform: scale(1.2); /* Ajusta el valor de escala al hacer hover */
+}
+
+.zoom-image {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2);
+}
+
+
+
+
 
 /*
 Codigo CCS de Tony
@@ -462,7 +553,7 @@ Codigo CCS de Tony
 .Section2ClipsDiv {
   height: 718px;
   width: 1225px;
-}
-.iconSize {
-  font-size: 20px;
+} 
+.iconSize{
+  font-Size: 20px;
 }
