@@ -313,7 +313,12 @@ Codigo CCS de Peter
 .carousel {
   background-color: black;
 }
-.carousel-item img {
+
+.carousel-card {
+  border: none; /* Elimina el borde del card */
+}
+
+.carousel-image {
   width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
   height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
 }
@@ -340,12 +345,59 @@ Codigo CCS de Peter
   border: none; /* Quita los bordes del botón si lo deseas */
   padding: 10px 20px; /* Ajusta el padding del botón según tus necesidades */
 }
+.card{
+  --bs-card-border-color: none!important;
+}
+.carousel-indicators .thumbnail-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*padding: 10px;*/
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
 
+.carousel-indicators .thumbnail-caption h5,
+.carousel-indicators .thumbnail-caption p,
+.carousel-indicators .thumbnail-caption a {
+  margin: 0;
+  padding: 0;
+}
 
+.carousel-indicators .thumbnail-caption h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
+.carousel-indicators .thumbnail-caption p {
+  font-size: 14px;
+}
 
+.carousel-indicators .thumbnail-caption a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
 
+.zoom-container {
+  transform: scale(1.1); /* Ajusta el valor de escala según sea necesario */
+  transition: transform 0.5s ease; /* Agrega una transición suave al zoom */
+}
 
+.zoom-container:hover {
+  transform: scale(1.2); /* Ajusta el valor de escala al hacer hover */
+}
+
+.zoom-image {
+  transition: transform 0.3s ease;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2);
+}
 
 
 
