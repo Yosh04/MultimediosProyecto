@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {BsFacebook, BsInstagram, BsTwitter, BsYoutube} from "react-icons/bs";
 const Footer = () => {
   return (
-    <footer className="bond">
+    <footer className="footer">
       <Container >
         <Row className="mt-3">
           <Col className="text-center">
@@ -49,7 +49,7 @@ const Footer = () => {
               <BsYoutube className="iconSize"/>
             </a>
 
-           <span className="separator"></span>
+           <span className="icons-separator"></span>
 
             <a
               class="social-icon-kids"
@@ -65,11 +65,11 @@ const Footer = () => {
         <br></br>
         <Row className="mt-3">
           <Col className="text-center">
-            <p className="bigger-text startTerm">TM & © Lucasfilm Ltd. All Rights Reserved</p>
+            <p className="bigger-text start-Term">TM & © Lucasfilm Ltd. All Rights Reserved</p>
           </Col>
         </Row>
         <Row className="mt-3">
-          <Col className="termsColSty">
+          <Col className="terms-Col-Style">
             <a
               href="https://disneytermsofuse.com/"
               className="text-white smaller-text"
@@ -78,7 +78,7 @@ const Footer = () => {
             >
               Terms of Use
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://support.disney.com/hc/en-us/articles/360000829466-Legal-Notices"
               className="text-white smaller-text"
@@ -87,7 +87,7 @@ const Footer = () => {
             >
               Additional Content Information
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://privacy.thewaltdisneycompany.com/en/"
               className="text-white smaller-text"
@@ -96,7 +96,7 @@ const Footer = () => {
             >
               Privacy Policy
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://privacy.thewaltdisneycompany.com/en/for-parents/childrens-online-privacy-policy/"
               className="text-white smaller-text"
@@ -105,7 +105,7 @@ const Footer = () => {
             >
               Children's Online Privacy Policy
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/"
               className="text-white smaller-text"
@@ -114,7 +114,7 @@ const Footer = () => {
             >
               Your California Privacy Rights
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://www.shopdisney.com/franchises/star-wars/?CMP=SYN-Dcom&att=StarWars_Footer_Store"
               className="text-white smaller-text"
@@ -123,7 +123,7 @@ const Footer = () => {
             >
               Star Wars at shopDisney
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://support.starwars.com/hc/en-us"
               className="text-white smaller-text"
@@ -132,7 +132,7 @@ const Footer = () => {
             >
               Star Wars Helpdesk
             </a>
-            <span className="s-separator"></span>
+            <span className="text-separator"></span>
             <a
               href="https://preferences-mgr.truste.com/?type=starwars&affiliateId=115"
               className="text-white smaller-text"
@@ -144,7 +144,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="mt-3">
-        <Col className="d-flex justify-content-around lastTerm">
+        <Col className="d-flex justify-content-around last-Term">
         <a
               href="https://privacyportal-de.onetrust.com/webform/64f077b5-2f93-429f-a005-c0206ec0738e/0a4f1f0b-7130-421f-971d-ef578c0bce6d"
               className="text-white smaller-text"
@@ -158,6 +158,6 @@ const Footer = () => {
       </Container>
     </footer>
   );
-};
+};  
 
 export default Footer;
