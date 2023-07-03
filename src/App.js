@@ -7,7 +7,6 @@ import ResearchIcon from './components/searchIcons';
 import BarInfo from './components/AppBarInfo';
 import HearderTile from './components/SubAppBarInfo';
 import CarouselComponent from './components/CarouselComponent';
-import Section2clips from './components/Secction2clips';
 import ContentHero from './components/contentHero';
 import CarouselNewsFeatures from './components/CarouselLatestNewsFeatures';
 import CarouselExploreMore from './components/carouselExploreMore';
@@ -41,7 +40,6 @@ function App() {
           <div className='Sections_Items_container'>
             <HearderTile></HearderTile>
             <CarouselComponent images={images} />
-            <Section2clips></Section2clips>
             <ContentHero></ContentHero>
             <CarouselNewsFeatures></CarouselNewsFeatures>
             <span className='afterSpan'></span>

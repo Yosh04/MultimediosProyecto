@@ -68,6 +68,7 @@
 .AppBarInfoDiv {
   margin-top: auto;
 }
+
 .AppBarListInfo {
   list-style-type: none;
   display: flex;
@@ -76,17 +77,19 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .AppSocial-li {
   list-style-type: none;
   margin-right: 10px;
 }
-.AppSocial-li a{
+
+.AppSocial-li a {
   text-decoration: none;
 }
 
 
 /*Componentes searchIcons.*/
-.searchbar{
+.searchbar {
   width: 520px;
   display: flex;
   justify-content: flex-end;
@@ -94,15 +97,17 @@
 }
 
 /*Esta propiedad la comparte searchs y social.*/
-.listIconsHorizontal{
+.listIconsHorizontal {
   list-style-type: none;
   display: flex;
   height: 46px;
 }
+
 /*Es para searchs ajustar solo el margin .*/
-.searchMargin{
+.searchMargin {
   margin-top: 40px;
 }
+
 .social-icon button {
   border: none;
   background: none;
@@ -135,23 +140,27 @@
   border-color: #f8f8f8;
   border-radius: 5px;
 }
+
 .inputContainer input::placeholder {
-  color: gray; /* Establece el color gris para el placeholder */
+  color: gray;
+  /* Establece el color gris para el placeholder */
 }
 
-.inputContainer .IconSearch{
+.inputContainer .IconSearch {
   position: absolute;
   right: 260px;
   height: 30px;
   width: 40px;
   color: #fff;
 }
-.inputContainer .IconCancel{
+
+.inputContainer .IconCancel {
   position: absolute;
   height: 30px;
   width: 40px;
   color: #fff;
 }
+
 .inputContainer button {
   position: absolute;
   top: 10px;
@@ -170,27 +179,32 @@
   margin-right: 5px;
 }
 
-.bgModal{
+.bgModal {
   --bs-body-bg: #181818;
-  --bs-border-color: none!important;
+  --bs-border-color: none !important;
   padding-bottom: 40px;
 }
-.modal-dialog{
+
+.modal-dialog {
   padding-bottom: 20px;
 }
-.LogosModalSignUp img{
-    width: 200px;
-    margin-right: 60px;
-    height: 80px;
-    margin-top: 20px;
+
+.LogosModalSignUp img {
+  width: 200px;
+  margin-right: 60px;
+  height: 80px;
+  margin-top: 20px;
 }
-.headerModal{
+
+.headerModal {
   display: flex;
 }
-.LogosModalSignUp{
-  display: flex; 
+
+.LogosModalSignUp {
+  display: flex;
   justify-content: center;
 }
+
 .modal-body {
   display: flex;
   flex-direction: column;
@@ -198,9 +212,11 @@
   align-items: center;
   color: #ff9908;
 }
+
 .modal-body h1 {
   text-align: center;
 }
+
 .modal-body input {
   width: 700px;
   height: 50px;
@@ -210,36 +226,40 @@
   border-radius: 3px;
   font-size: 20px;
 }
+
 .modal-body input:focus {
   background-color: #484848;
   color: #edd700;
 }
-.modal-footer{
+
+.modal-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.modal-footer button{
+
+.modal-footer button {
   width: 700px;
   background-color: #666;
   height: 50px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.modal-footer button:hover{
+
+.modal-footer button:hover {
   background-color: #3f6dac;
 }
 
 
 
 /*Componente de social icons*/
-.social{
+.social {
   margin-right: -20px;
 }
 
 /*Codigo para centrar el logo*/
-.social-links{
+.social-links {
   margin: 40px;
   padding-right: 90px;
   padding-left: 20px;
@@ -249,7 +269,8 @@
 a:visited {
   color: #99999999;
 }
-.local-nav-logo{
+
+.local-nav-logo {
   margin: 34px;
 }
 
@@ -269,10 +290,122 @@ a:visited {
 }
 
 /*Component content Hero*/
-.SectionContentHero {
+.HeroSectionContent {
   width: 1600px;
-  height: 640px;
-  background: #9b9b9bdd;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+/*Codigo para el overlay del hero content*/
+.overlay {
+  position: relative;
+}
+
+.overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-140%, -90%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+/*Codigo para el contedido sobre el overlay y es perteciente a hero*/
+.content {
+  width: 500px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroPictures {
+  width: 300px;
+
+}
+
+.heroDescription {
+  font-family: "DINNext";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.heroButton .aSimulationButon {
+  background-color: #fade4b;
+  border: 1px solid transparent;
+  color: #000000;
+  border-radius: 24px;
+  text-decoration: none;
+  padding: 10px 60px;
+}
+
+/*Codigo para la subsección de  .HeroSectionContent */
+.HeroCarouselList {
+  width: 1600px;
+  height: 500px;
+  height: 300px;
+  opacity: 80%;
+  background: rgb(44,42,44);
+  background: linear-gradient(0deg, rgba(44,42,44,0.3209616610316002) 7%, rgba(56,54,56,0.6486927534685749) 43%, rgba(63,59,63,0.7159196442248774) 58%, rgba(92,87,92,0.8195611008075105) 100%); 
+}
+
+/*Notch modificado*/
+/*Código de la notch*/
+.NewFeaturesCarouselItemContainerHero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  rgb(51,51,51)!important;
+  background: linear-gradient(0deg, rgba(51,51,51,0.6010737058495272) 7%, rgba(51,51,51,0.8363678234965861) 36%, rgba(51,51,51,0.9344070391828606) 58%, rgba(51,51,51,1) 77%)!important; 
+
+}
+
+
+.notchHero {
+  width: 6rem;
+  height: 1rem;
+  background-color: #111111;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.notch-rigth-diagonalHero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: #111111;
+  transform-origin: bottom right;
+  transform: skew(45deg);
+  margin-left: 6rem;
+}
+
+.notch-left-diagonalHero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: #111111;
+  transform-origin: bottom right;
+  transform: skew(-45deg);
+  margin-left: -1rem;
 }
 
 /*NewFeaturesCarousel*/
@@ -301,11 +434,13 @@ a:visited {
   font-weight: 500;
   font-size: 25px;
 }
+
 .afterSpan {
   display: inline-block;
-  border-top: 2px solid rgb(55,60, 62);
+  border-top: 2px solid rgb(55, 60, 62);
   margin: 10px 0;
 }
+
 .NewFeaturesCarousel {
   height: 325px;
   width: 1600px;
@@ -419,39 +554,52 @@ Codigo CCS de Peter
 }
 
 .carousel-card {
-  border: none; /* Elimina el borde del card */
+  border: none;
+  /* Elimina el borde del card */
 }
 
 .carousel-image {
-  width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
-  height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
+  width: 100%;
+  /* Ajusta el ancho de las imágenes según tus necesidades */
+  height: auto;
+  /* Ajusta la altura de las imágenes según tus necesidades */
 }
 
 .carousel-caption {
-  color: white; /* Cambia el color del texto de la descripción */
+  color: white;
+  /* Cambia el color del texto de la descripción */
 }
 
 .carousel-caption h3 {
-  font-size: 24px; /* Ajusta el tamaño del título */
+  font-size: 24px;
+  /* Ajusta el tamaño del título */
 }
 
 .carousel-caption p {
-  font-size: 16px; /* Ajusta el tamaño del texto de descripción */
+  font-size: 16px;
+  /* Ajusta el tamaño del texto de descripción */
 }
 
 .carousel-caption a {
-  color: yellow; /* Cambia el color de los enlaces */
+  color: yellow;
+  /* Cambia el color de los enlaces */
 }
 
 .carousel-caption button {
-  background-color: blue; /* Cambia el color de fondo del botón */
-  color: white; /* Cambia el color del texto del botón */
-  border: none; /* Quita los bordes del botón si lo deseas */
-  padding: 10px 20px; /* Ajusta el padding del botón según tus necesidades */
+  background-color: blue;
+  /* Cambia el color de fondo del botón */
+  color: white;
+  /* Cambia el color del texto del botón */
+  border: none;
+  /* Quita los bordes del botón si lo deseas */
+  padding: 10px 20px;
+  /* Ajusta el padding del botón según tus necesidades */
 }
-.card{
-  --bs-card-border-color: none!important;
+
+.card {
+  --bs-card-border-color: none !important;
 }
+
 .carousel-indicators .thumbnail-caption {
   position: absolute;
   bottom: 0;
@@ -487,12 +635,15 @@ Codigo CCS de Peter
 }
 
 .zoom-container {
-  transform: scale(1.1); /* Ajusta el valor de escala según sea necesario */
-  transition: transform 0.5s ease; /* Agrega una transición suave al zoom */
+  transform: scale(1.1);
+  /* Ajusta el valor de escala según sea necesario */
+  transition: transform 0.5s ease;
+  /* Agrega una transición suave al zoom */
 }
 
 .zoom-container:hover {
-  transform: scale(1.2); /* Ajusta el valor de escala al hacer hover */
+  transform: scale(1.2);
+  /* Ajusta el valor de escala al hacer hover */
 }
 
 .zoom-image {
@@ -520,6 +671,7 @@ Codigo CCS de Tony
   margin: 0;
   background-color: #000;
 }
+
 .icons-separator {
   position: relative;
   width: 1px;
@@ -575,16 +727,20 @@ Codigo CCS de Tony
   height: 48px;
 
 }
+
 .social-icon-kids:link {
   color: white;
   text-decoration: none;
 }
+
 .social-icon-kids:visited {
   color: white;
 }
+
 .social-icon-kids:hover {
   color: red;
 }
+
 .sm-col {
   margin-right: 16px;
   background-size: 48px;
@@ -596,10 +752,12 @@ Codigo CCS de Tony
   align-items: center;
   justify-content: center;
 }
+
 .sm-col:link {
   color: white;
   text-decoration: none;
 }
+
 .sm-col:visited {
   color: white;
 }
@@ -617,6 +775,7 @@ Codigo CCS de Tony
   display: flex;
   margin-bottom: -5px;
 }
+
 .last-Term {
   display: flex;
   justify-content: flex-start;
@@ -625,7 +784,8 @@ Codigo CCS de Tony
 .Section2ClipsDiv {
   height: 718px;
   width: 1225px;
-} 
-.iconSize{
+}
+
+.iconSize {
   font-Size: 20px;
 }
