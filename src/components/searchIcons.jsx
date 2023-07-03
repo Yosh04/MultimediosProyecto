@@ -1,10 +1,7 @@
 import Button from 'react-bootstrap/Button';
-import Overlay from 'react-bootstrap/Overlay';
-import Form from 'react-bootstrap/Form';
-import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 
 import { GiCancel } from "react-icons/gi";
 import { BsSearch } from "react-icons/bs";
