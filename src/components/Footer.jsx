@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {BsFacebook, BsInstagram, BsTwitter, BsYoutube} from "react-icons/bs";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer-bg">
       <Container >
         <Row className="mt-3">
           <Col className="text-center">
