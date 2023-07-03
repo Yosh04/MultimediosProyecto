@@ -9,36 +9,36 @@ function CarouselLatestVideo() {
   };
 
   return (
-    <div className="DivMaster">
-    <div className="DivTitle">
+    <div className="Carousel-Div-Master">
+    <div className="Carousel-Div-Title">
       <h2>
       Latest Video
       </h2>
       <a
-          className="bot-a-final"
+          className="button-a-VM"
           style={{}}
           href="/z"
         >
           View All
-          <span className="bot-a-final-after"></span>
+          <span className="button-a-final-after"></span>
         </a>
       </div>
-      <span className="afterSpanInDiv"></span>
+      <span className="after-Span-In-Div"></span>
     <Carousel
-      class="NewFeaturesCarousel"
+      class="NF-LV-Carousel"
       activeIndex={index}
       onSelect={handleSelect}
     >
-      <Carousel.Item class="NewFeaturesCarouselItem">
-        <div class="NewFeaturesCarouselItemContainer">
-          <div class="NewFeactureGroupItem">
+      <Carousel.Item class="Carousel-Item-NF-LV">
+        <div class="NF-LV-Carousel-Item-Container">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -48,14 +48,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Second slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -65,14 +65,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Third slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -84,16 +84,16 @@ function CarouselLatestVideo() {
         </div>
       </Carousel.Item>
 
-      <Carousel.Item class="NewFeaturesCarouselItem">
-        <div class="NewFeaturesCarouselItemContainer">
-          <div class="NewFeactureGroupItem">
+      <Carousel.Item class="Carousel-Item-NF-LV">
+        <div class="NF-LV-Carousel-Item-Container">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Fourth slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -103,14 +103,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Fifth slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -120,14 +120,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>6st slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -138,16 +138,16 @@ function CarouselLatestVideo() {
           </div>
         </div>
       </Carousel.Item>
-      <Carousel.Item class="NewFeaturesCarouselItem">
-        <div class="NewFeaturesCarouselItemContainer">
-          <div class="NewFeactureGroupItem">
+      <Carousel.Item class="Carousel-Item-NF-LV">
+        <div class="NF-LV-Carousel-Item-Container">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>7th slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -157,14 +157,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>8st slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">
@@ -174,14 +174,14 @@ function CarouselLatestVideo() {
             </Carousel.Caption>
           </div>
 
-          <div class="NewFeactureGroupItem">
+          <div class="Carousel-Group-Item">
             <img
-              className="d-block w-10 NewFeaturesCarouselImg"
+              className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
               style={{ width: "448px", height: "116px" }}
             />
-            <Carousel.Caption class="NewFeaturesCarouselElement">
+            <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>9st slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="notch">

@@ -42,13 +42,13 @@ function App() {
             <CarouselComponent images={images} />
             <ContentHero></ContentHero>
             <CarouselNewsFeatures></CarouselNewsFeatures>
-            <span className='afterSpan'></span>
+            <span className='after-Span-sp'></span>
             <CarouselLatestVideo></CarouselLatestVideo>
-            <span className='afterSpan'></span>
+            <span className='after-Span-sp'></span>
             <CarouselExploreMore></CarouselExploreMore>
           </div>
         </div>
-        <span className='afterSpan'></span>
+        <span className='after-Span-sp'></span>
         <Footer />
     </div>
   );
