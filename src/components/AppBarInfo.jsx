@@ -1,11 +1,14 @@
 import React from 'react';
+import NewsLink from "./NewsLink";
 
 const BarInfo = () => {
     return (
         <div class='AppBarInfoDiv '>
             <ul class='AppBarListInfo '>
                 <li class='AppSocial-li'>
-                    <a className='AppBarInfoElement' href=" ">NEWS + FEATURES</a>
+                    <NewsLink to={"/News"}>
+                    <a className='AppBarInfoElement' href=" ">NEWS+FEATURES</a>
+                    </NewsLink>
                 </li>
                 <li class='AppSocial-li'>
                     <a href=" ">VIDEO</a>

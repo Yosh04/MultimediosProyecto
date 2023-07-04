@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import NewsLink from "./NewsLink";
+//import NotFoundLink from "./NotFoundLink";
+//import HomeLink from "./HomeLink";
 
 function CarouselNewsFeatures() {
   const [index, setIndex] = useState(0);
@@ -12,11 +15,7 @@ function CarouselNewsFeatures() {
     <div className="Carousel-Div-Master">
       <div className="Carousel-Div-Title">
         <h2>Latest News + Features</h2>
-        <a
-          className="button-a-VM"
-          style={{}}
-          href="/z"
-        >
+        <a className="button-a-VM" style={{}} href="/z">
           View All
           <span className="button-a-final-after"></span>
         </a>
@@ -30,22 +29,26 @@ function CarouselNewsFeatures() {
         <Carousel.Item class="Carousel-Item-NF-LV">
           <div class="NF-LV-Carousel-Item-Container">
             <div class="Carousel-Group-Item">
-              <img
-                className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
-                alt="First slide"
-                style={{ width: "448px", height: "116px" }}
-              />
-              <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-                <div className="notch">
-                  <div className="notch-left-diagonal"></div>
-                  <div className="notch-rigth-diagonal"></div>
+              <NewsLink to="/news">
+                <div>
+                  <img
+                    className="d-block w-10 NF-LV-Carousel-Img"
+                    src="https://acortar.link/iKItc4"
+                    alt="First slide"
+                    style={{ width: "448px", height: "116px" }}
+                  />
+                  <Carousel.Caption class="NF-LV-Carousel-Element">
+                    <h3>First slide label</h3>
+                    <p>
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    </p>
+                    <div className="notch">
+                      <div className="notch-left-diagonal"></div>
+                      <div className="notch-rigth-diagonal"></div>
+                    </div>
+                  </Carousel.Caption>
                 </div>
-              </Carousel.Caption>
+              </NewsLink>
             </div>
 
             <div class="Carousel-Group-Item">
