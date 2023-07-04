@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 const CarouselComponent = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+
   const handleSelect = (selectedIndex) => {
     setActiveIndex(selectedIndex);
   };
@@ -18,7 +19,7 @@ const CarouselComponent = ({ images }) => {
             <Card.Body>
               <div className="overlay">
               <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
-                <div className="overlay-content">
+                <div className={image.side}>
                   <div className="content">
                     <h2>Título del contenido</h2>
                     <p>Aquí puedes agregar cualquier texto adicional.</p>
