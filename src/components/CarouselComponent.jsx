@@ -15,11 +15,16 @@ const CarouselComponent = ({ images }) => {
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <Card className="carousel-card">
-            <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
             <Card.Body>
-              <Card.Title>Slide {index + 1} Title</Card.Title>
-              <Card.Text>Slide {index + 1} Description</Card.Text>
-              <Button variant="primary">Read More</Button>
+              <div className="overlay">
+              <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
+                <div className="overlay-content">
+                  <div className="content">
+                    <h2>Título del contenido</h2>
+                    <p>Aquí puedes agregar cualquier texto adicional.</p>
+                  </div>
+                </div>
+              </div>
             </Card.Body>
           </Card>
         </Carousel.Item>

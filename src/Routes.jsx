@@ -20,10 +20,9 @@ class Home extends React.Component {
   
     render() {
         const images = [
-            { src: 'https://images7.alphacoders.com/671/thumbbig-671281.webp', alt: 'Image 1' },
-            { src: 'https://images3.alphacoders.com/114/thumbbig-11439.webp', alt: 'Image 2' },
-            { src: 'https://images8.alphacoders.com/131/thumbbig-1311649.webp', alt: 'Image 3' },
-            { src: 'https://images3.alphacoders.com/131/thumbbig-1310689.webp', alt: 'Image 4' },
+            { src: 'https://lumiere-a.akamaihd.net/v1/images/disney-gallery-the-mandalorian-s3-module-hero-desktop_d6f7c4e1.jpeg?region=0,0,2048,878', alt: 'Image 1' },
+            { src: 'https://lumiere-a.akamaihd.net/v1/images/sw-outlaws-sashsingle-hero-desktop_08d0cff1.jpeg?region=0,0,2048,878', alt: 'Image 2' },
+            { src: 'https://lumiere-a.akamaihd.net/v1/images/obi-wan-marvel-sashsingle-hero-desktop_6cd9c70f.jpeg?region=0,0,2048,878', alt: 'Image 3' },
           ];
 
     return (

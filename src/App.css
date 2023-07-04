@@ -585,6 +585,7 @@ Carrusel superior
 */
 .carousel {
   background-color: black;
+  --bs-body-bg: none;  /*Elimina el código boostrap del borde blanco carrousel.*/
 }
 
 .carousel-card {
