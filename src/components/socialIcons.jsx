@@ -49,8 +49,8 @@ const IconsLeft = () => {
           <div class="d-flex justify-content-center align-items-center">
           <span className="icons-separator"></span> 
           <a
-              class="social-icon-kids"
-              href="https://www.starwarskids.com/ iconSize"
+              class="social-icon-kids iconSize"
+              href="https://www.starwarskids.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
