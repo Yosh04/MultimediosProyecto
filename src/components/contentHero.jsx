@@ -33,7 +33,7 @@ const ContentHero = () => {
 
             </div>
             <div className='HeroCarouselList'>
-            <div>
+                <div>
                     <Carousel
                         class="NewFeaturesCarousel"
                         activeIndex={index}
@@ -46,11 +46,10 @@ const ContentHero = () => {
                                         className="d-block w-10 NewFeaturesCarouselImg"
                                         src="https://acortar.link/iKItc4"
                                         alt="First slide"
-                                        style={{ width: "448px", height: "116px" }}
+                                        style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h3>First slide label</h3>
-                                        <p>Parr 1.</p>
+                                        <h4>Ahsoka Premiere Date Revealed</h4>
                                         <div className="notchHero">
                                             <div className="notch-left-diagonalHero"></div>
                                             <div className="notch-rigth-diagonalHero"></div>
@@ -63,12 +62,14 @@ const ContentHero = () => {
                                         className="d-block w-10 NewFeaturesCarouselImg"
                                         src="https://acortar.link/iKItc4"
                                         alt="First slide"
-                                        style={{ width: "448px", height: "116px" }}
+                                        style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h3>Second slide label</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        
+                                        <h4>"Begin" I Ahsoka</h4>
+                                        <div className="notchHero">
+                                            <div className="notch-left-diagonalHero"></div>
+                                            <div className="notch-rigth-diagonalHero"></div>
+                                        </div>
                                     </Carousel.Caption>
                                 </div>
 
@@ -77,18 +78,19 @@ const ContentHero = () => {
                                         className="d-block w-10 NewFeaturesCarouselImg"
                                         src="https://acortar.link/iKItc4"
                                         alt="First slide"
-                                        style={{ width: "448px", height: "116px" }}
+                                        style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h3>Third slide label</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        
+                                        <h4>Teaser Trailer I Ahsoka</h4>
+                                        <div className="notchHero">
+                                            <div className="notch-left-diagonalHero"></div>
+                                            <div className="notch-rigth-diagonalHero"></div>
+                                        </div>
                                     </Carousel.Caption>
                                 </div>
                             </div>
                         </Carousel.Item>
                     </Carousel>
-
                 </div>
             </div>
         </div>

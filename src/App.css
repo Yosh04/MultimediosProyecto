@@ -352,7 +352,6 @@ a:visited {
   width: 1600px;
   height: 500px;
   height: 300px;
-  opacity: 80%;
   background: rgb(44, 42, 44);
   background: linear-gradient(
     0deg,
@@ -361,6 +360,7 @@ a:visited {
     rgba(63, 59, 63, 0.7159196442248774) 58%,
     rgba(92, 87, 92, 0.8195611008075105) 100%
   );
+
 }
 
 /*Notch modificado*/
@@ -371,22 +371,36 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(51, 51, 51) !important;
-  border: 2px solid #3f6dac;
-  
+  background: linear-gradient(
+    0deg,
+    rgba(51, 51, 51, 0.6010737058495272) 7%,
+    rgba(51, 51, 51, 0.8363678234965861) 36%,
+    rgba(51, 51, 51, 0.9344070391828606) 58%,
+    rgba(51, 51, 51, 1) 77%
+  ) !important;
+
+  padding-bottom: 40px;
+  padding-top: 30px;
+  color: #fff;  
 }
 
 .NewFeaturesCarouselElement{
-  border: 2px solid purple;
+  background:#101111;
   position: relative;
+  height: 100px;
 }
-.NewFeactureGroupItem{
-  border: 2px solid #0f0;
+.NewFeaturesCarouselElement h4{
+  padding-top: 20px;
+  text-align: left;
+}
+.NewFeactureGroupItem, .NewFeaturesCarouselImg{
+  border-radius: 10px 10px 0 0px;
 
 }
 .notchHero {
   width: 6rem;
   height: 1rem;
-  background-color: #111111;
+  background-color: #1a1a1a;
   position: absolute;
   bottom: 0;
   right: 40px;
@@ -398,7 +412,7 @@ a:visited {
   left: 0;
   width: 1rem;
   height: 100%;
-  background-color: #111111;
+  background-color: #1a1a1a;
   transform-origin: bottom right;
   transform: skew(45deg);
   margin-left: 6rem;
@@ -410,7 +424,7 @@ a:visited {
   left: 0;
   width: 1rem;
   height: 100%;
-  background-color: #111111;
+  background-color: #1a1a1a;
   transform-origin: bottom right;
   transform: skew(-45deg);
   margin-left: -1rem;
@@ -441,6 +455,7 @@ a:visited {
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
+  border-bottom: 1px solid #fff;
 }
 
 .after-Span-sp {
@@ -467,24 +482,35 @@ a:visited {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .Carousel-Group-Item {
   margin-left: 8px;
   margin-right: 8px;
+  border-radius: 10px 10px 0 0px;
+
 }
 
 .NF-LV-Carousel-Img {
   height: 141px;
   width: 448px;
+  border-radius: 10px 10px 0 0px;
+
 }
 
 .NF-LV-Carousel-Element {
-  background: #1d1e1f;
-  height: 125px;
+  background: #101111;
+  height: 100px;
   width: 448px;
   position: relative;
+  text-align: left;
   color: #fff;
+}
+
+.NF-LV-Carousel-Element h3,
+.NF-LV-Carousel-Element p {
+  padding-left: 20px;
 }
 
 .button-a-VM {

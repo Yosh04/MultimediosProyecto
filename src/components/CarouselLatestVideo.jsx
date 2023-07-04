@@ -36,7 +36,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>First slide label</h3>
@@ -53,7 +53,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Second slide label</h3>
@@ -70,7 +70,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Third slide label</h3>
@@ -91,7 +91,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Fourth slide label</h3>
@@ -108,7 +108,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>Fifth slide label</h3>
@@ -125,7 +125,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>6st slide label</h3>
@@ -145,7 +145,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>7th slide label</h3>
@@ -162,7 +162,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>8st slide label</h3>
@@ -179,7 +179,7 @@ function CarouselLatestVideo() {
               className="d-block w-10 NF-LV-Carousel-Img"
               src="https://acortar.link/iKItc4"
               alt="First slide"
-              style={{ width: "448px", height: "116px" }}
+              style={{ width: "448px", height: "180px" }}
             />
             <Carousel.Caption class="NF-LV-Carousel-Element">
               <h3>9st slide label</h3>
