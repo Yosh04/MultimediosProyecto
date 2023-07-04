@@ -50,7 +50,7 @@ const ContentHero = () => {
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
                                         <h3>First slide label</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        <p>Parr 1.</p>
                                         <div className="notchHero">
                                             <div className="notch-left-diagonalHero"></div>
                                             <div className="notch-rigth-diagonalHero"></div>
@@ -68,10 +68,7 @@ const ContentHero = () => {
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
                                         <h3>Second slide label</h3>
                                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        <div className="notchHero">
-                                            <div className="notch-left-diagonalHero"></div>
-                                            <div className="notch-rigth-diagonalHero"></div>
-                                        </div>
+                                        
                                     </Carousel.Caption>
                                 </div>
 
@@ -85,10 +82,7 @@ const ContentHero = () => {
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
                                         <h3>Third slide label</h3>
                                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        <div className="notchHero">
-                                            <div className="notch-left-diagonalHero"></div>
-                                            <div className="notch-rigth-diagonalHero"></div>
-                                        </div>
+                                        
                                     </Carousel.Caption>
                                 </div>
                             </div>

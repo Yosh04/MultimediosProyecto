@@ -371,15 +371,18 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(51, 51, 51) !important;
-  background: linear-gradient(
-    0deg,
-    rgba(51, 51, 51, 0.6010737058495272) 7%,
-    rgba(51, 51, 51, 0.8363678234965861) 36%,
-    rgba(51, 51, 51, 0.9344070391828606) 58%,
-    rgba(51, 51, 51, 1) 77%
-  ) !important;
+  border: 2px solid #3f6dac;
+  
 }
 
+.NewFeaturesCarouselElement{
+  border: 2px solid purple;
+  position: relative;
+}
+.NewFeactureGroupItem{
+  border: 2px solid #0f0;
+
+}
 .notchHero {
   width: 6rem;
   height: 1rem;
