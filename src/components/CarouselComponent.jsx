@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 const CarouselComponent = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+
   const handleSelect = (selectedIndex) => {
     setActiveIndex(selectedIndex);
   };
@@ -15,11 +16,15 @@ const CarouselComponent = ({ images }) => {
       {images.map((image, index) => (
         <Carousel.Item key={index}>
           <Card className="carousel-card">
-            <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
             <Card.Body>
-              <Card.Title>Slide {index + 1} Title</Card.Title>
-              <Card.Text>Slide {index + 1} Description</Card.Text>
-              <Button variant="primary">Read More</Button>
+              <div className="overlay">
+              <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
+                <div className={image.side}>
+                  <div className="content">
+                    <p>Aquí puedes agregar cualquier texto adicional.</p>
+                  </div>
+                </div>
+              </div>
             </Card.Body>
           </Card>
         </Carousel.Item>
