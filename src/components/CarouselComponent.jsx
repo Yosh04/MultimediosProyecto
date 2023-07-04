@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
 const CarouselComponent = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-
 
   const handleSelect = (selectedIndex) => {
     setActiveIndex(selectedIndex);
@@ -18,9 +16,26 @@ const CarouselComponent = ({ images }) => {
           <Card className="carousel-card">
             <Card.Body>
               <div className="overlay">
-              <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
+                <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
                 <div className={image.side}>
                   <div className="content">
+                    <div>
+                      <img
+                        className={image.imageInfo?.className}
+                        data-src={image.imageInfo?.['data-src']}
+                        alt={image.imageInfo?.alt}
+                        tabIndex={image.imageInfo?.tabIndex}
+                        style={image.imageInfo?.style}
+                        data-width={image.imageInfo?.['data-width']}
+                        data-height={image.imageInfo?.['data-height']}
+                        data-aspect_ratio={image.imageInfo?.['data-aspect_ratio']}
+                        data-orientation={image.imageInfo?.['data-orientation']}
+                        data-legacy={image.imageInfo?.['data-legacy']}
+                        src={image.imageInfo?.src}
+                        width={image.imageInfo?.width}
+                        height={image.imageInfo?.height}
+                      />
+                    </div>
                     <p>Aquí puedes agregar cualquier texto adicional.</p>
                   </div>
                 </div>
@@ -34,6 +49,3 @@ const CarouselComponent = ({ images }) => {
 };
 
 export default CarouselComponent;
-
-
-

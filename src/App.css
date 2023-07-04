@@ -587,7 +587,7 @@ Carrusel superior
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-10%, -90%);
+  transform: translate(30%, -90%);
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
