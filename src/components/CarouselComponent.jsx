@@ -21,7 +21,6 @@ const CarouselComponent = ({ images }) => {
               <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
                 <div className={image.side}>
                   <div className="content">
-                    <h2>Título del contenido</h2>
                     <p>Aquí puedes agregar cualquier texto adicional.</p>
                   </div>
                 </div>
