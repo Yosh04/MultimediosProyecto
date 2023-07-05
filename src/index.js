@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { createRoot } from "react-dom";
-import { Home, News, NotFound } from "./Routes.jsx";
+import { Home, News, NotFound, Video } from "./Routes.jsx";
 import "./index.css";
 
 const root = createRoot(document.getElementById("root"));
@@ -12,6 +12,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
+        <Route path="/video" element={<Video />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

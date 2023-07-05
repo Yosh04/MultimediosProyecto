@@ -132,7 +132,37 @@ class News extends React.Component {
           </header>
           <div className='Section_container'>
             <div className='Sections_Items_container'>
-              
+              <h1>
+                I am in News Section
+              </h1>
+            </div>
+          </div>
+          <span className='after-Span-sp'></span>
+          <Footer />
+      </div>
+    );
+  }
+}
+
+class Video extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <div className='base-bg'> </div>
+        <div className='secondary-bg'> </div>
+          <header className="App-header">
+            <div className='principal-header'>
+              <IconsLeft></IconsLeft>
+              <LogoStarWars className="LogoStarWars2"></LogoStarWars>
+              <ResearchIcon></ResearchIcon>
+            </div>
+            <BarInfo></BarInfo>
+          </header>
+          <div className='Section_container'>
+            <div className='Sections_Items_container'>
+              <h1>
+                I am in Video Section
+              </h1>
             </div>
           </div>
           <span className='after-Span-sp'></span>
@@ -168,4 +198,4 @@ class NotFound extends React.Component {
   }
 }
 
-export { Home, News, NotFound };
+export { Home, News, NotFound, Video };

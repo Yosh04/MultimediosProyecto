@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import NotchContain from "./NotchContain";
 
 function CarouselExploreMore() {
     const [index, setIndex] = useState(0);
@@ -102,8 +103,10 @@ function CarouselExploreMore() {
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>Fifth slide label</h3>
-                 
+                <div>
+                <NotchContain></NotchContain>
+                </div>
+                
                 <div className="notch">
                   <div className="notch-left-diagonal"></div>
                   <div className="notch-rigth-diagonal"></div>
@@ -120,61 +123,6 @@ function CarouselExploreMore() {
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
                 <h3>6st slide label</h3>
-                 
-                <div className="notch">
-                  <div className="notch-left-diagonal"></div>
-                  <div className="notch-rigth-diagonal"></div>
-                </div>
-              </Carousel.Caption>
-            </div>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item class="Carousel-Item-NF-LV">
-          <div class="NF-LV-Carousel-Item-Container">
-            <div class="Carousel-Group-Item">
-              <img
-                className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
-                alt="First slide"
-                style={{ width: "448px", height: "180px" }}
-              />
-              <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>7th slide label</h3>
-                 
-                <div className="notch">
-                  <div className="notch-left-diagonal"></div>
-                  <div className="notch-rigth-diagonal"></div>
-                </div>
-              </Carousel.Caption>
-            </div>
-  
-            <div class="Carousel-Group-Item">
-              <img
-                className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
-                alt="First slide"
-                style={{ width: "448px", height: "180px" }}
-              />
-              <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>8st slide label</h3>
-                 
-                <div className="notch">
-                  <div className="notch-left-diagonal"></div>
-                  <div className="notch-rigth-diagonal"></div>
-                </div>
-              </Carousel.Caption>
-            </div>
-  
-            <div class="Carousel-Group-Item">
-              <img
-                className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
-                alt="First slide"
-                style={{ width: "448px", height: "180px" }}
-              />
-              <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>9st slide label</h3>
-                 
                 <div className="notch">
                   <div className="notch-left-diagonal"></div>
                   <div className="notch-rigth-diagonal"></div>
