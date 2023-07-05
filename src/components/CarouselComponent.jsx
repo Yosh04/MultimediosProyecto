@@ -20,14 +20,14 @@ const CarouselComponent = ({ images }) => {
                 <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
                 <div className="grupBloxsCarousel">
                   <div className="contentGroup">
-                    <div className='boxgroupCarousel'>
-                      <div><h5>DISNEY GALLERY: THE MANDALORIAN</h5></div>
+                    <div className='boxgroupCarousel bg-boxgroup1'>
+                      <h5>DISNEY GALLERY: THE MANDALORIAN</h5>
                     </div>
-                    <div className='boxgroupCarousel'>
-                      <div><h5>STAR WARS: OUTLAWS REVEALED</h5></div>
+                    <div className='boxgroupCarousel bg-boxgroup2'>
+                      <h5>STAR WARS: OUTLAWS REVEALED</h5>
                     </div>
-                    <div className='boxgroupCarousel'>
-                      <div><h5>OBI-WAN KENOBI DISNEY+ SERIES TO COMICS</h5></div>
+                    <div className='boxgroupCarousel bg-boxgroup3'>
+                      <h5>OBI-WAN KENOBI DISNEY+ SERIES TO COMICS</h5>
                     </div>
                   </div>
                 </div>
