@@ -90,6 +90,7 @@
 .AppSocial-li:hover {
   color: white;
 }
+
 /*Componentes searchIcons.*/
 .searchbar {
   width: 520px;
@@ -355,13 +356,11 @@ a:visited {
   height: 500px;
   height: 300px;
   background: rgb(44, 42, 44);
-  background: linear-gradient(
-    0deg,
-    rgba(44, 42, 44, 0.3209616610316002) 7%,
-    rgba(56, 54, 56, 0.6486927534685749) 43%,
-    rgba(63, 59, 63, 0.7159196442248774) 58%,
-    rgba(92, 87, 92, 0.8195611008075105) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(44, 42, 44, 0.3209616610316002) 7%,
+      rgba(56, 54, 56, 0.6486927534685749) 43%,
+      rgba(63, 59, 63, 0.7159196442248774) 58%,
+      rgba(92, 87, 92, 0.8195611008075105) 100%);
 }
 
 /*Notch modificado*/
@@ -372,13 +371,11 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(51, 51, 51) !important;
-  background: linear-gradient(
-    0deg,
-    rgba(51, 51, 51, 0.6010737058495272) 7%,
-    rgba(51, 51, 51, 0.8363678234965861) 36%,
-    rgba(51, 51, 51, 0.9344070391828606) 58%,
-    rgba(51, 51, 51, 1) 77%
-  ) !important;
+  background: linear-gradient(0deg,
+      rgba(51, 51, 51, 0.6010737058495272) 7%,
+      rgba(51, 51, 51, 0.8363678234965861) 36%,
+      rgba(51, 51, 51, 0.9344070391828606) 58%,
+      rgba(51, 51, 51, 1) 77%) !important;
 
   padding-bottom: 40px;
   padding-top: 30px;
@@ -390,14 +387,17 @@ a:visited {
   position: relative;
   height: 100px;
 }
+
 .NewFeaturesCarouselElement h4 {
   padding-top: 20px;
   text-align: left;
 }
+
 .NewFeactureGroupItem,
 .NewFeaturesCarouselImg {
   border-radius: 10px 10px 0 0px;
 }
+
 .notchHero {
   width: 6rem;
   height: 1rem;
@@ -582,13 +582,38 @@ a:visited {
 /*
 Carrusel superior
 */
-.boxgroupCarousel{
-  width: 200px;
-  background: chocolate;
-  margin-right: 5px;
+.bg-boxgroup1,
+.bg-boxgroup2,
+.bg-boxgroup3 {
+  background-size: cover; /* Ajusta la imagen al tamaño de la caja */
+  background-position: center; /* Centra la imagen en la caja */
+}
+.bg-boxgroup1 {
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/disney-gallery-the-mandalorian-s3-module-hero-desktop_d6f7c4e1.jpeg?region=0,0,2048,878&width=320);
+
 }
 
-.contentGroup{
+.bg-boxgroup2 {
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/sw-outlaws-sashsingle-hero-desktop_08d0cff1.jpeg?region=0,0,2048,878&width=320);
+
+}
+
+.bg-boxgroup3{
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/obi-wan-marvel-sashsingle-hero-desktop_6cd9c70f.jpeg?region=0,0,2048,878&width=320);
+
+} 
+.boxgroupCarousel {
+  width: 200px;
+  margin-right: 7px;
+}
+.boxgroupCarousel div h5{
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+
+.contentGroup {
   width: 500px;
   margin-bottom: 20px;
   display: flex;
@@ -596,21 +621,21 @@ Carrusel superior
   align-items: center;
   justify-items: center;
 }
-.grupBloxsCarousel{
+
+.grupBloxsCarousel {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 120%);
-  background-color: rgba(0, 0, 0, 0.6);
+  transform: translate(-50%, 169%);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
   font-weight: bold;
-  
+
 }
 
-.text-container{
+.text-container {
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -634,14 +659,18 @@ Carrusel superior
 }
 
 .link-container .youtube-urlYellow {
-  color: inherit; /* Hereda el color del texto del elemento padre */
-  text-decoration: none; /* Elimina la decoración de subrayado */
+  color: inherit;
+  /* Hereda el color del texto del elemento padre */
+  text-decoration: none;
+  /* Elimina la decoración de subrayado */
   color: #000;
 }
 
 .link-container .youtube-urlBlack {
-  color: inherit; /* Hereda el color del texto del elemento padre */
-  text-decoration: none; /* Elimina la decoración de subrayado */
+  color: inherit;
+  /* Hereda el color del texto del elemento padre */
+  text-decoration: none;
+  /* Elimina la decoración de subrayado */
   color: #fff;
 }
 
@@ -673,7 +702,8 @@ Carrusel superior
 
 .carousel {
   background-color: black;
-  --bs-body-bg: none; /*Elimina el código boostrap del borde blanco carrousel.*/
+  --bs-body-bg: none;
+  /*Elimina el código boostrap del borde blanco carrousel.*/
 }
 
 .carousel-card {
@@ -914,18 +944,17 @@ Código Footer
   justify-content: space-around;
   align-items: center;
   background-color: rgb(51, 51, 51) !important;
-  background: linear-gradient(
-    0deg,
-    rgba(51, 51, 51, 0.6010737058495272) 7%,
-    rgba(51, 51, 51, 0.8363678234965861) 36%,
-    rgba(51, 51, 51, 0.9344070391828606) 58%,
-    rgba(51, 51, 51, 1) 77%
-  ) !important;
+  background: linear-gradient(0deg,
+      rgba(51, 51, 51, 0.6010737058495272) 7%,
+      rgba(51, 51, 51, 0.8363678234965861) 36%,
+      rgba(51, 51, 51, 0.9344070391828606) 58%,
+      rgba(51, 51, 51, 1) 77%) !important;
 
   padding-bottom: 40px;
   padding-top: 30px;
   color: #fff;
 }
+
 .NF-CarouselItemContainer button {
   background: transparent;
   border: 2px solid #1a1a1a;
@@ -941,12 +970,12 @@ Código Footer
   color: white;
 }
 
-.bg-nf{
+.bg-nf {
   background-color: #101111;
-  
+
 }
 
-.NewFeactureGroupItem button{
+.NewFeactureGroupItem button {
   border: none;
-  background:none;
+  background: none;
 }
