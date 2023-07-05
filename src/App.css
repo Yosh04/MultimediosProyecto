@@ -80,7 +80,7 @@
 
 .AppSocial-li {
   list-style-type: none;
-  margin-right: 10px;
+  margin-right: 60px;
 }
 
 .AppSocial-li a {
@@ -316,6 +316,8 @@ a:visited {
   color: #fff;
   text-align: center;
 }
+
+
 
 /*Codigo para el contedido sobre el overlay y es perteciente a hero*/
 .content {
@@ -580,7 +582,35 @@ a:visited {
 /*
 Carrusel superior
 */
-.text-container {
+.boxgroupCarousel{
+  width: 200px;
+  background: chocolate;
+  margin-right: 5px;
+}
+
+.contentGroup{
+  width: 500px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.grupBloxsCarousel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.text-container{
   margin-top: 20px;
   margin-bottom: 50px;
 }

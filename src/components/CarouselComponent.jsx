@@ -10,6 +10,7 @@ const CarouselComponent = ({ images }) => {
   };
 
   return (
+
     <Carousel fade activeIndex={activeIndex} onSelect={handleSelect} className="carousel">
       {images.map((image, index) => (
         <Carousel.Item key={index}>
@@ -17,6 +18,19 @@ const CarouselComponent = ({ images }) => {
             <Card.Body>
               <div className="overlay">
                 <Card.Img variant="top" src={image.src} alt={image.alt} className="carousel-image" />
+                <div className="grupBloxsCarousel">
+                  <div className="contentGroup">
+                    <div className='boxgroupCarousel'>
+                      <div><h5>DISNEY GALLERY: THE MANDALORIAN</h5></div>
+                    </div>
+                    <div className='boxgroupCarousel'>
+                      <div><h5>STAR WARS: OUTLAWS REVEALED</h5></div>
+                    </div>
+                    <div className='boxgroupCarousel'>
+                      <div><h5>OBI-WAN KENOBI DISNEY+ SERIES TO COMICS</h5></div>
+                    </div>
+                  </div>
+                </div>
                 <div className={image.side}>
                   <div className="content">
                     <div>
@@ -42,20 +56,18 @@ const CarouselComponent = ({ images }) => {
                     </div>
                     <div className="link-container">
                       <a href="https://youtu.be/c7K2TA0bBpY" class={image.bottonYellow} role="button" data-youtube-id="c7K2TA0bBpY" tabindex="0">  Watch Now </a>
-                      <a href="https://youtu.be/c7K2TA0bBpY" class={image.bottonBlack}  role="button" data-youtube-id="c7K2TA0bBpY" tabindex="0">  Watch Now </a>
+                      <a href="https://youtu.be/c7K2TA0bBpY" class={image.bottonBlack} role="button" data-youtube-id="c7K2TA0bBpY" tabindex="0">  Watch Now </a>
                     </div>
                   </div>
                 </div>
               </div>
-
             </Card.Body>
           </Card>
         </Carousel.Item>
       ))}
-      <div>
-        
-      </div>
+
     </Carousel>
+
   );
 };
 
