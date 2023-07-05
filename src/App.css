@@ -462,6 +462,7 @@ a:visited {
   display: inline-block;
   border-top: 2px solid rgb(55, 60, 62);
   margin: 10px 0;
+  margin-top: 50px;
 }
 
 .NF-LV-Carousel {
@@ -842,4 +843,23 @@ Código Footer
 
 .iconSize {
   font-size: 20px;
+}
+
+.NF-GroupItem{
+  background: none;
+}
+
+.NF-CarouselElement{
+  background:#101111;
+  position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bg-nf{
+  background-color: #101111;
+  
 }

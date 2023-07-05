@@ -14,6 +14,7 @@ import CarouselLatestVideo from './components/CarouselLatestVideo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
+import NFContent from './components/NotFoundContent';
 
 
 class Home extends React.Component {
@@ -119,19 +120,7 @@ class News extends React.Component {
           </header>
           <div className='Section_container'>
             <div className='Sections_Items_container'>
-              <HearderTile></HearderTile>
-              <div>
-              Esto
-              </div>
-              <div>
-                Es
-              </div>
-              <div>
-                Solo
-              </div>
-              <div>
-                Relleno
-              </div>
+              
             </div>
           </div>
           <span className='after-Span-sp'></span>
@@ -144,12 +133,24 @@ class News extends React.Component {
 class NotFound extends React.Component {
   render() {
     return (
-      <div>
-        <h1>404 Not Found</h1>
-        <p>La página que estás buscando no existe.</p>
-        <div>
-        <LogoStarWars className="LogoStarWars2"></LogoStarWars>
-        </div>
+      <div className="App">
+        <div className='base-bg'> </div>
+        <div className='secondary-bg'> </div>
+          <header className="App-header">
+            <div className='principal-header'>
+              <IconsLeft></IconsLeft>
+              <LogoStarWars className="LogoStarWars2"></LogoStarWars>
+              <ResearchIcon></ResearchIcon>
+            </div>
+            <BarInfo></BarInfo>
+          </header>
+          <div className='Section_container'>
+            <div className='Sections_Items_container'>
+            <NFContent></NFContent>
+            </div>
+          </div>
+          <span className='after-Span-sp'></span>
+          <Footer />
       </div>
     );
   }
