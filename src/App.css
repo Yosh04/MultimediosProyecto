@@ -311,7 +311,6 @@ a:visited {
   top: 50%;
   left: 50%;
   transform: translate(-140%, -90%);
-  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
@@ -679,7 +678,6 @@ Carrusel superior
   top: 50%;
   left: 50%;
   transform: translate(30%, -60%);
-  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
@@ -692,7 +690,6 @@ Carrusel superior
   top: 50%;
   left: 50%;
   transform: translate(-140%, -55%);
-  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
