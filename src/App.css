@@ -87,7 +87,7 @@
   text-decoration: none;
 }
 
-.AppSocial-li:hover{
+.AppSocial-li:hover {
   color: white;
 }
 /*Componentes searchIcons.*/
@@ -360,7 +360,6 @@ a:visited {
     rgba(63, 59, 63, 0.7159196442248774) 58%,
     rgba(92, 87, 92, 0.8195611008075105) 100%
   );
-
 }
 
 /*Notch modificado*/
@@ -381,21 +380,21 @@ a:visited {
 
   padding-bottom: 40px;
   padding-top: 30px;
-  color: #fff;  
+  color: #fff;
 }
 
-.NewFeaturesCarouselElement{
-  background:#101111;
+.NewFeaturesCarouselElement {
+  background: #101111;
   position: relative;
   height: 100px;
 }
-.NewFeaturesCarouselElement h4{
+.NewFeaturesCarouselElement h4 {
   padding-top: 20px;
   text-align: left;
 }
-.NewFeactureGroupItem, .NewFeaturesCarouselImg{
+.NewFeactureGroupItem,
+.NewFeaturesCarouselImg {
   border-radius: 10px 10px 0 0px;
-
 }
 .notchHero {
   width: 6rem;
@@ -483,21 +482,18 @@ a:visited {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
 }
 
 .Carousel-Group-Item {
   margin-left: 8px;
   margin-right: 8px;
   border-radius: 10px 10px 0 0px;
-
 }
 
 .NF-LV-Carousel-Img {
   height: 141px;
   width: 448px;
   border-radius: 10px 10px 0 0px;
-
 }
 
 .NF-LV-Carousel-Element {
@@ -584,26 +580,26 @@ a:visited {
 /*
 Carrusel superior
 */
-.text-container{
+.text-container {
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-.youtube-urlYellow{
+.youtube-urlYellow {
   padding: 20px 40px;
   border-radius: 30px;
-  margin-right: 60px ;
+  margin-right: 60px;
   background-color: #f2d24e;
 }
 
-.youtube-urlBlack{
+.youtube-urlBlack {
   padding: 20px 40px;
   border-radius: 30px;
   background-color: #000;
   border: 2px solid #f2d24e;
 }
 
-.youtube-urlBlackHiden{
+.youtube-urlBlackHiden {
   visibility: hidden;
 }
 
@@ -613,13 +609,13 @@ Carrusel superior
   color: #000;
 }
 
-.link-container .youtube-urlBlack{
+.link-container .youtube-urlBlack {
   color: inherit; /* Hereda el color del texto del elemento padre */
   text-decoration: none; /* Elimina la decoración de subrayado */
   color: #fff;
 }
 
-.BoxPlaceRigth{
+.BoxPlaceRigth {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -632,7 +628,7 @@ Carrusel superior
   font-weight: bold;
 }
 
-.BoxPlaceLeft{
+.BoxPlaceLeft {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -647,7 +643,7 @@ Carrusel superior
 
 .carousel {
   background-color: black;
-  --bs-body-bg: none;  /*Elimina el código boostrap del borde blanco carrousel.*/
+  --bs-body-bg: none; /*Elimina el código boostrap del borde blanco carrousel.*/
 }
 
 .carousel-card {
@@ -882,12 +878,31 @@ Código Footer
   font-size: 20px;
 }
 
-.NF-GroupItem{
-  background: none;
+.NF-CarouselItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(51, 51, 51) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(51, 51, 51, 0.6010737058495272) 7%,
+    rgba(51, 51, 51, 0.8363678234965861) 36%,
+    rgba(51, 51, 51, 0.9344070391828606) 58%,
+    rgba(51, 51, 51, 1) 77%
+  ) !important;
+
+  padding-bottom: 40px;
+  padding-top: 30px;
+  color: #fff;
+}
+.NF-CarouselItemContainer button {
+  background: transparent;
+  border: 2px solid #1a1a1a;
 }
 
-.NF-CarouselElement{
-  background:#101111;
+.NF-CarouselElement {
+  background: rgb(50, 50, 50);
   position: relative;
   height: 100px;
   display: flex;
@@ -900,7 +915,6 @@ Código Footer
   background-color: #101111;
   
 }
-
 
 .NewFeactureGroupItem button{
   border: none;
