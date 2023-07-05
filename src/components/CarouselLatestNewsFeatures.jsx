@@ -15,7 +15,7 @@ function CarouselNewsFeatures() {
     <div className="Carousel-Div-Master">
       <div className="Carousel-Div-Title">
         <h2>Latest News + Features</h2>
-        <a className="button-a-VM" style={{}} href="/z">
+        <a className="button-a-VM" style={{}} href="/news">
           View All
           <span className="button-a-final-after"></span>
         </a>
