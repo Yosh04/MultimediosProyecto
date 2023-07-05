@@ -36,14 +36,23 @@ const CarouselComponent = ({ images }) => {
                         height={image.imageInfo?.height}
                       />
                     </div>
-                    <p>Aquí puedes agregar cualquier texto adicional.</p>
+                    <div className='text-container'>
+                      <h2>{image.titleinfo}</h2>
+                      <h3>{image.textInfo}</h3>
+                    </div>
+                    <div className="link-container">
+                      <a href="https://youtu.be/c7K2TA0bBpY" class={image.bottonYellow} role="button" data-youtube-id="c7K2TA0bBpY" tabindex="0">  Watch Now </a>
+                      <a href="https://youtu.be/c7K2TA0bBpY" class={image.bottonBlack}  role="button" data-youtube-id="c7K2TA0bBpY" tabindex="0">  Watch Now </a>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </Card.Body>
           </Card>
         </Carousel.Item>
       ))}
+      <div></div>
     </Carousel>
   );
 };

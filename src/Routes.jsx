@@ -56,18 +56,30 @@ class Home extends React.Component {
           src: 'https://lumiere-a.akamaihd.net/v1/images/disney-gallery-the-mandalorian-s3-module-hero-desktop_d6f7c4e1.jpeg?region=0,0,2048,878',
           alt: 'Image 1',
           side: "BoxPlaceLeft",
-          imageInfo: imageInfo1
+          imageInfo: imageInfo1,
+          textInfo: "Go behind the scenes in the all-new special Disney Gallery: The Mandalorian, streaming June 28 on Disney+.",
+          bottonYellow:"youtube-urlYellow",
+          bottonBlack:"youtube-urlBlackHiden"
         },
         {
           src: 'https://lumiere-a.akamaihd.net/v1/images/sw-outlaws-sashsingle-hero-desktop_08d0cff1.jpeg?region=0,0,2048,878',
           alt: 'Image 2',
           side: "BoxPlaceRigth",
-          imageInfo: imageInfo2
+          imageInfo: imageInfo2,
+          textInfo:"Watch the official gameplay walkthrough for Ubisoft's upcoming open-world Star Wars game.",
+          bottonYellow:"youtube-urlYellow",
+          bottonBlack:"youtube-urlBlack"
+
+          
         },
         {
           src: 'https://lumiere-a.akamaihd.net/v1/images/obi-wan-marvel-sashsingle-hero-desktop_6cd9c70f.jpeg?region=0,0,2048,878',
           alt: 'Image 3',
-          side: "BoxPlaceLeft"
+          side: "BoxPlaceLeft",
+          titleinfo:"MARVEL WILL BRING THE OBI-WAN KENOB/ DISNEY* SERIES TO COMICS",
+          textInfo:"Check out the covers of issue #1 and meet the creative team.",
+          bottonYellow:"youtube-urlYellow",
+          bottonBlack:"youtube-urlBlackHiden"
         }
       ];
       

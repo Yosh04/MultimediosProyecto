@@ -583,28 +583,65 @@ a:visited {
 /*
 Carrusel superior
 */
+.text-container{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.youtube-urlYellow{
+  padding: 20px 40px;
+  border-radius: 30px;
+  margin-right: 60px ;
+  background-color: #f2d24e;
+}
+
+.youtube-urlBlack{
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: #000;
+  border: 2px solid #f2d24e;
+}
+
+.youtube-urlBlackHiden{
+  visibility: hidden;
+}
+
+.link-container .youtube-urlYellow {
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  text-decoration: none; /* Elimina la decoración de subrayado */
+  color: #000;
+}
+
+.link-container .youtube-urlBlack{
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  text-decoration: none; /* Elimina la decoración de subrayado */
+  color: #fff;
+}
+
 .BoxPlaceRigth{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(30%, -90%);
+  transform: translate(30%, -60%);
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+  font-weight: bold;
 }
 
 .BoxPlaceLeft{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-140%, -90%);
+  transform: translate(-140%, -55%);
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
+  font-weight: bold;
 }
 
 .carousel {
