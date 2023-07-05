@@ -29,7 +29,7 @@ function CarouselNewsFeatures() {
         <Carousel.Item class="Carousel-Item-NF-LV">
           <div class="NF-LV-Carousel-Item-Container">
             <div class="Carousel-Group-Item">
-              <NewsLink to="/news">
+              <NewsLink to="/News">
                 <div>
                   <img
                     className="d-block w-10 NF-LV-Carousel-Img"
