@@ -39,7 +39,7 @@ const NFContent = () => {
                         onSelect={handleSelect}
                     >
                         <Carousel.Item class="NewFeaturesCarouselItemHero">
-                            <div class="NewFeaturesCarouselItemContainerHero">
+                            <div class="NF-CarouselItemContainer">
                                 <div class="NewFeactureGroupItem">
                                     <img
                                         className="d-block w-10 NewFeaturesCarouselImg"
@@ -51,6 +51,7 @@ const NFContent = () => {
 
                                     <HomeLink to="/">
                                 <div class=".NF-GroupItem">
+                                    
                                     <div className='bg-nf'>
                                     <img
                                         className="d-block w-10 Img"
@@ -59,6 +60,7 @@ const NFContent = () => {
                                         style={{ width: "448px", height: "200px" }}
                                     />
                                     </div>
+                                    
                                     <Carousel.Caption class="NF-CarouselElement">
                                         <h4>Volver a la página principal</h4>
                                         <div className="notchHero">
