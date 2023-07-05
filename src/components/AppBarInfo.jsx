@@ -7,7 +7,7 @@ const BarInfo = () => {
             <ul class='AppBarListInfo '>
                 <li class='AppSocial-li'>
                     <NewsLink to={"/News"}>
-                    <a className='AppBarInfoElement' href=" ">NEWS+FEATURES</a>
+                    <a className='AppBarInfoSpan' href=" ">NEWS+FEATURES</a>
                     </NewsLink>
                 </li>
                 <li class='AppSocial-li'>

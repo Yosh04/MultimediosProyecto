@@ -5,7 +5,6 @@ import HomeLink from "./HomeLink";
 
 
 const NFContent = () => {
-    //Codigo para controlar el carrucel inferior.
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {

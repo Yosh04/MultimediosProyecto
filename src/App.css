@@ -90,6 +90,12 @@
 .AppSocial-li:hover {
   color: white;
 }
+
+.AppBarInfoSpan{
+  border-bottom: 4px solid;
+  border-color: #f2d24e;
+
+}
 /*Componentes searchIcons.*/
 .searchbar {
   width: 520px;
