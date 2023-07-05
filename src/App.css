@@ -900,3 +900,9 @@ Código Footer
   background-color: #101111;
   
 }
+
+
+.NewFeactureGroupItem button{
+  border: none;
+  background:none;
+}

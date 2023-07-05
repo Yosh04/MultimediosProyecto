@@ -52,7 +52,9 @@ const CarouselComponent = ({ images }) => {
           </Card>
         </Carousel.Item>
       ))}
-      <div></div>
+      <div>
+        
+      </div>
     </Carousel>
   );
 };
