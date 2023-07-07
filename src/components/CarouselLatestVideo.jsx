@@ -1,12 +1,23 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
+import React, { useEffect } from 'react';
+
 function CarouselLatestVideo() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(3);
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
+
+  const [planets, setPlanets] = useState([]);
+
+useEffect(() => {
+  fetch('https://swapi.dev/api/planets/')
+    .then(response => response.json())
+    .then(data => setPlanets(data.results))
+    .catch(error => console.error(error));
+}, []);
 
   return (
     <div className="Carousel-Div-Master">
@@ -28,12 +39,12 @@ function CarouselLatestVideo() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/planets/${2}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>First slide label</h3>
+              <h3>{planets[1]?.name}</h3>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -47,12 +58,12 @@ function CarouselLatestVideo() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/planets/${3}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>Second slide label</h3>
+              <h3>{planets[2]?.name}</h3>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -66,12 +77,12 @@ function CarouselLatestVideo() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/planets/${4}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>Third slide label</h3>
+              <h3>{planets[3]?.name}</h3>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>

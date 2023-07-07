@@ -1,15 +1,20 @@
-import React from 'react';
-import { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
-
+import React, { useEffect, useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 const ContentHero = () => {
     //Codigo para controlar el carrucel inferior.
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
+    const [characters, setCharacters] = useState([]);
+    useEffect(() => {
+        fetch('https://swapi.dev/api/people/')
+            .then(response => response.json())
+            .then(data => setCharacters(data.results))
+            .catch(error => console.error(error));
+    }, []);
+
 
     return (
         <div class='HeroSectionContent'>
@@ -44,12 +49,12 @@ const ContentHero = () => {
                                 <div class="NewFeactureGroupItem">
                                     <img
                                         className="d-block w-10 NewFeaturesCarouselImg"
-                                        src="https://acortar.link/iKItc4"
+                                        src={`https://starwars-visualguide.com/assets/img/characters/${2}.jpg`}
                                         alt="First slide"
                                         style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h4>Ahsoka Premiere Date Revealed</h4>
+                                        <h4>Character Name {characters[1]?.name}</h4>
                                         <div className="notchHero">
                                             <div className="notch-left-diagonalHero"></div>
                                             <div className="notch-rigth-diagonalHero"></div>
@@ -60,12 +65,12 @@ const ContentHero = () => {
                                 <div class="NewFeactureGroupItem">
                                     <img
                                         className="d-block w-10 NewFeaturesCarouselImg"
-                                        src="https://acortar.link/iKItc4"
+                                        src={`https://starwars-visualguide.com/assets/img/characters/${4}.jpg`}
                                         alt="First slide"
                                         style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h4>"Begin" I Ahsoka</h4>
+                                        <h4>Name {characters[3]?.name}</h4>
                                         <div className="notchHero">
                                             <div className="notch-left-diagonalHero"></div>
                                             <div className="notch-rigth-diagonalHero"></div>
@@ -76,12 +81,12 @@ const ContentHero = () => {
                                 <div class="NewFeactureGroupItem">
                                     <img
                                         className="d-block w-10 NewFeaturesCarouselImg"
-                                        src="https://acortar.link/iKItc4"
+                                        src={`https://starwars-visualguide.com/assets/img/characters/${8}.jpg`}
                                         alt="First slide"
                                         style={{ width: "448px", height: "200px" }}
                                     />
                                     <Carousel.Caption class="NewFeaturesCarouselElement">
-                                        <h4>Teaser Trailer I Ahsoka</h4>
+                                        <h4>Name {characters[7]?.name}</h4>
                                         <div className="notchHero">
                                             <div className="notch-left-diagonalHero"></div>
                                             <div className="notch-rigth-diagonalHero"></div>
