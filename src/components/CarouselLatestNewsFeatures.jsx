@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import React, { useEffect } from 'react';
 import NewsLink from "./NewsLink";
 //import NotFoundLink from "./NotFoundLink";
 //import HomeLink from "./HomeLink";
@@ -10,6 +11,14 @@ function CarouselNewsFeatures() {
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
+
+  const [vehicles, setVehicles] = useState([]);
+  useEffect(() => {
+    fetch('https://swapi.dev/api/vehicles/')
+      .then(response => response.json())
+      .then(data => setVehicles(data.results))
+      .catch(error => console.error(error));
+  }, []);
 
   return (
     <div className="Carousel-Div-Master">
@@ -33,12 +42,12 @@ function CarouselNewsFeatures() {
                 <div>
                   <img
                     className="d-block w-10 NF-LV-Carousel-Img"
-                    src="https://acortar.link/iKItc4"
+                    src={`https://starwars-visualguide.com/assets/img/vehicles/${8}.jpg`}
                     alt="First slide"
                     style={{ width: "448px", height: "180px" }}
                   />
                   <Carousel.Caption class="NF-LV-Carousel-Element">
-                    <h3>First slide label</h3>
+                  <h3>{vehicles[7]?.name}</h3>
                     <p>
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
@@ -54,12 +63,13 @@ function CarouselNewsFeatures() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${4}.jpg`}
+
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>Second slide label</h3>
+              <h3>{vehicles[3]?.name}</h3>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -73,12 +83,12 @@ function CarouselNewsFeatures() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${14}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
               <Carousel.Caption class="NF-LV-Carousel-Element">
-                <h3>Third slide label</h3>
+              <h3>{vehicles[13]?.name}</h3>
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
@@ -96,7 +106,7 @@ function CarouselNewsFeatures() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${6}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
@@ -115,7 +125,7 @@ function CarouselNewsFeatures() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${6}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
@@ -134,7 +144,7 @@ function CarouselNewsFeatures() {
             <div class="Carousel-Group-Item">
               <img
                 className="d-block w-10 NF-LV-Carousel-Img"
-                src="https://acortar.link/iKItc4"
+                src={`https://starwars-visualguide.com/assets/img/vehicles/${6}.jpg`}
                 alt="First slide"
                 style={{ width: "448px", height: "180px" }}
               />
