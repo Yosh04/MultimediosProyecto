@@ -10,17 +10,17 @@ El objetivo principal de este proyecto es crear una réplica de la página web o
 
 El equipo está formado por tres miembros universitarios:
 
-1. Nombre: [Nombre del miembro 1]
-   - Área de estudio: [Área de estudio del miembro 1]
-   - Responsabilidades: [Responsabilidades del miembro 1 en el proyecto]
+1. Nombre: [Antony Muñoz]
+   - Área de estudio: [Informatico Empresarial]
+   - Responsabilidades: [Creación de footer, creacción de carouseles inferiores, manejo interno de rutas]
 
-2. Nombre: [Nombre del miembro 2]
-   - Área de estudio: [Área de estudio del miembro 2]
-   - Responsabilidades: [Responsabilidades del miembro 2 en el proyecto]
+2. Nombre: [Yosh Escorcia]
+   - Área de estudio: [Informatico Empresarial]
+   - Responsabilidades: [Creación de estructura del proyecto, manejador de github, creador de contendido en el proyecto]
 
-3. Nombre: [Nombre del miembro 3]
-   - Área de estudio: [Área de estudio del miembro 3]
-   - Responsabilidades: [Responsabilidades del miembro 3 en el proyecto]
+3. Nombre: [Peter Sequeira]
+   - Área de estudio: [Informatico Empresarial]
+   - Responsabilidades: [Creación de carousel]
 
 ## Objetivos
 
@@ -34,9 +34,9 @@ Los principales objetivos de este proyecto son:
 
 A lo largo del proyecto, cada miembro del equipo contribuirá de la siguiente manera:
 
-- [Anthonny Muños]: ""
-- [Peter Sequeira]: ""
-- [Yosh Escorcia]: ""
+- [Anthonny Muñoz]: "Desarrollo completo de rutas y creación de carouseles."
+- [Peter Sequeira]: "Creación de carousel"
+- [Yosh Escorcia]: "Creación completa de componentes, implementación de api y estructuras del proyecto"
 
 ## Estado del Proyecto
 
@@ -50,9 +50,9 @@ Si estás interesado en contribuir a este proyecto, ¡nos encantaría tener tu a
 
 Si tienes alguna pregunta o sugerencia relacionada con el proyecto, no dudes en ponerte en contacto con nosotros:
 
-- [Nombre del miembro 1]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
-- [Nombre del miembro 2]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
-- [Nombre del miembro 3]: [Dirección de correo electrónico o nombre de usuario en la plataforma de colaboración]
+- [Antony Muñoz]: [TONY MJ]
+- [Peter Sequeira]: [Pitsix23]
+- [Yosh Escorcia]: [Yosh04]
 
 ¡Gracias por tu interés en nuestro proyecto! Esperamos aprender mucho y crear una clonación impresionante de la página oficial de Star Wars.
 
