@@ -50,9 +50,9 @@ Si estás interesado en contribuir a este proyecto, ¡nos encantaría tener tu a
 
 Si tienes alguna pregunta o sugerencia relacionada con el proyecto, no dudes en ponerte en contacto con nosotros:
 
-- [Antony Muñoz]: [TONY MJ]
-- [Peter Sequeira]: [Pitsix23]
-- [Yosh Escorcia]: [Yosh04]
+- [Antony Muñoz]: TONY MJ
+- [Peter Sequeira]: Pitsix23
+- [Yosh Escorcia]: Yosh04
 
 ¡Gracias por tu interés en nuestro proyecto! Esperamos aprender mucho y crear una clonación impresionante de la página oficial de Star Wars.
 
